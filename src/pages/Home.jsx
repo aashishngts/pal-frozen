@@ -1,20 +1,11 @@
-import { useEffect, useState } from "react";
+
 import Hero from "../components/Hero";
 import ProductsSection from "../components/ProductsSection";
 
 
 
 export default function Home() {
-  const [index, setIndex] = useState(0);
 
-  /* AUTO SLIDE (future use / safe keep) */
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setIndex((prev) => (prev + 1) % heroImages.length);
-    }, 4000);
-
-    return () => clearInterval(interval);
-  }, []);
 
   return (
     <>
