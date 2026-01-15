@@ -146,7 +146,7 @@ export default function Footer() {
         <p className="text-center sm:text-left">
           © 2023 by Pal Fresh.{" "}
           <span className="underline">
-            Proudly created with Pal Frozen Foods
+            Proudly created with Sailor Exports Limited
           </span>
         </p>
 
