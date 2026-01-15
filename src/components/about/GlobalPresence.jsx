@@ -1,6 +1,6 @@
 export default function GlobalPresence() {
   return (
-    <section className="bg-white py-40">
+    <section className="bg-white py-20">
       <div className="max-w-7xl mx-auto px-6 text-center">
 
         {/* TOP TITLE */}

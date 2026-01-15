@@ -10,7 +10,7 @@ import family6 from "../../assets/palfarm/family6.jpeg";
 
 export default function PalFarmsFamily() {
   return (
-    <section className="bg-white py-28">
+    <section className="bg-white py-10">
       {/* TOP DIVIDER */}
       <div className="max-w-7xl mx-auto">
         <div className="border-t border-gray-300 mb-24"></div>

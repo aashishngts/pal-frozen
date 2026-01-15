@@ -78,7 +78,7 @@ export default function Blogs() {
   return (
     <>
       {/* HERO (already reusable) */}
-      <Hero title="Blogs" subtitle="Insights, Recipes & Updates" />
+      <Hero />
 
       {/* PAGE TITLE */}
       <section className="py-16 text-center">

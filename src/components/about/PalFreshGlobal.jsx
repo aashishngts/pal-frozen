@@ -2,7 +2,7 @@ import palfresh from "../../assets/palfreshglobal/palfresh.jpeg"
 
 export default function PalFreshGlobal() {
   return (
-    <section className="py-32 text-center bg-white">
+    <section className="py-10 text-center bg-white">
       {/* LOGO */}
       <img
         src={palfresh}

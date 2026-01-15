@@ -1,6 +1,6 @@
 export default function ContactInfo() {
   return (
-    <section className="py-20 sm:py-24 lg:py-32 bg-white text-center">
+    <section className="py-10 sm:py-10 lg:py-10 bg-white text-center">
       {/* HEADING */}
       <h2 className="text-xl sm:text-2xl text-green-800 mb-12 sm:mb-16">
         FOR MORE INFORMATION

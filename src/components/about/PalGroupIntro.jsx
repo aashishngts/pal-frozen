@@ -2,7 +2,7 @@
 import img5 from "../../assets/smgroup/img5.png"
 export default function PalGroupIntro() {
   return (
-    <section className="py-32 text-center bg-white">
+    <section className="py-10 text-center bg-white">
       {/* LOGO */}
       <img
         src={img5}

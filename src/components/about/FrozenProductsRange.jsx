@@ -1,6 +1,6 @@
 export default function FrozenProductsRange() {
   return (
-    <section className="bg-[#0f5e34] py-36">
+    <section className="bg-[#0f5e34] py-20">
       <div className="max-w-5xl mx-auto px-6 text-center text-white">
 
         {/* TITLE */}

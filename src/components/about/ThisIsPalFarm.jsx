@@ -1,6 +1,6 @@
 export default function ThisIsPalFarm() {
   return (
-    <section className="bg-white py-28">
+    <section className="bg-white py-20">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* TOP DIVIDER */}

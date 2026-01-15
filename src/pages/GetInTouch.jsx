@@ -11,14 +11,16 @@ import BecomeDistributor from "../components/get-in-touch/BecomeDistributor";
 import ContactFooterSection from "../components/get-in-touch/ContactFooterSection";
 import GallerySection from "../components/get-in-touch/GallerySection";
 import PrivacyPolicy from "../components/get-in-touch/PrivacyPolicy";
+import GetInTouch2 from "./GetInTouch2";
 
 export default function GetInTouch() {
   return (
     <>
       <Navbar />
       <Hero/> 
+      <GetInTouch2/>
 
-      <KnowMoreAboutUs />
+      {/* <KnowMoreAboutUs />
       <VisitOtherSites/>
       <ContactPersons/>
       <DownloadBrochure/>
@@ -31,7 +33,7 @@ export default function GetInTouch() {
 
       <GallerySection/>
 
-      <PrivacyPolicy/>
+      <PrivacyPolicy/> */}
 
     </>
   );

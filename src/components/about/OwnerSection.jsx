@@ -2,19 +2,19 @@ import owner from "../../assets/owner/owner.jpeg"
 
 export default function OwnerSection() {
   return (
-    <section className="py-32 bg-white">
+    <section className="py-10 bg-white">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-20 items-start">
 
         {/* IMAGE */}
-        <div className="flex justify-center">
-          <img
-            src={owner}
-            alt="Owner of Pal Group"
-            className="object-cover"
-          />
-        </div>
+          <div className="flex justify-center">
+            <img
+              src={owner}
+              alt="Owner of Pal Group"
+              className="object-cover "
+            />
+          </div>
 
-        {/* CONTENT */}
+          {/* CONTENT */}
         <div>
           <h2 className="text-xl text-green-800 mb-8">
             The Owner Of Pal Group

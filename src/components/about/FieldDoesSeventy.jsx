@@ -1,7 +1,7 @@
 import coliflower from "../../assets/palfarm/coliflower.jpeg";
 export default function FieldDoesSeventy() {
   return (
-    <section className="bg-white py-28">
+    <section className="bg-white py-10">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* TOP DIVIDER */}

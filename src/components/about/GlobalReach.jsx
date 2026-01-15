@@ -2,7 +2,7 @@ import map from "../../assets/palfreshglobal/globe.png"
 
 export default function GlobalReach() {
   return (
-    <section className="py-32 bg-white">
+    <section className="py-10 bg-white">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
 
         {/* MAP */}

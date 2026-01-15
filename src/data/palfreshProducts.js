@@ -15,12 +15,11 @@ import soyaPack from "../assets/palfresh/soyachaap/pack.png";
 import soyaBowl from "../assets/palfresh/soyachaap/bowl.png";
 
 export const palfreshProducts = [
-  // green peas
+  // ================= GREEN PEAS =================
   {
     slug: "green-peas",
     subtitle: "FROZEN GREEN",
     title: "PEAS",
-
     themeColor: "#6BAA1F",
 
     images: {
@@ -31,20 +30,42 @@ export const palfreshProducts = [
 
     introTitle: "Perfect Green Peas, Anytime Fresh.",
     introText:
-      "Frozen green peas available online here are outstanding food with higher fiber and protein levels. These are lush green in color and are selected from the cleaned and purified lot of peas. The frozen peas are very simple to store, allowing you to use them in your dishes throughout the year. These green peas are offered in packet packing, wherein 1 kg is the standard value. These have a good content of sodium and potassium in them.",
+      "Frozen green peas available online here are outstanding food with higher fiber and protein levels. These are lush green in color and are selected from the cleaned and purified lot of peas.",
 
     story: [
-      "Harvesting – Fresh peas from farms",
-      "Cleaning – Washed and sorted",
-      "Blanching – Locks freshness",
-      "Freezing – IQF freezing",
+      {
+        title: "HARVESTING",
+        subtitle: "Fresh peas harvested from farms",
+        text: "Only the finest quality peas are picked directly from trusted farms.",
+      },
+      {
+        title: "CLEANING",
+        subtitle: "Carefully cleaned and sorted well",
+        text: "Every pea is thoroughly washed and separated to ensure purity.",
+      },
+      {
+        title: "BLANCHING",
+        subtitle: "Quick blanching to lock freshness",
+        text: "A brief heat treatment preserves natural taste, color, and nutrients.",
+      },
+      {
+        title: "FREEZING",
+        subtitle: "Rapid freezing at optimal temperature",
+        text: "Advanced freezing keeps peas garden-fresh without losing quality.",
+      },
     ],
 
-    offer: "Ideal for curries, pulao, soups and healthy meals.",
+    offer1:
+      "Welcome to Pal Frozen Foods, where we bring you the finest quality frozen green peas that are packed with freshness and flavor. As a leading name in the frozen food industry, we are dedicated to delivering excellence and ensuring that every bite of our green peas exceeds your expectations. At Pal Frozen Foods, we understand that green peas are not just another vegetable; they are a versatile ingredient that adds vibrancy and nutrition to a wide range of dishes. That's why we carefully source our green peas from trusted farmers who share our passion for quality and sustainability. ",
+    offer2:
+      "Our frozen green peas are harvested at their peak ripeness, carefully processed, and promptly frozen to lock in their natural sweetness and vibrant color. We take pride in preserving the nutritional value of our green peas, ensuring that they retain their vitamins, minerals, and fiber even after freezing. Whether you're a health-conscious individual, a culinary enthusiast, or a busy home cook, our frozen green peas are a convenient and delicious addition to your meals. From classic Indian curries to hearty soups, salads, stir-fries, and more, our green peas elevate the taste and nutritional profile of your favorite recipes. ",
+    offer3:
+      "Pal Frozen Foods is committed to providing you with the best. Our state-of-the-art facilities and stringent quality control measures ensure that every pack of our frozen green peas meets the highest standards. We take pride in bringing you a product that not only enhances your culinary creations but also nourishes your body. Explore our website and discover the convenience and quality of our frozen green peas. Let Pal Frozen Foods be your go-to source for premium frozen vegetables, as we bring you the essence of nature's goodness, preserved and ready to be enjoyed. Experience the delight of our frozen green peas and elevate your meals to a whole new level.",
+
     otherProducts: ["Mix Veg", "Sweet Corn", "Broccoli"],
   },
 
-  // mix veg
+  // ================= MIX VEG =================
   {
     slug: "mix-veg",
     subtitle: "FROZEN MIX",
@@ -58,20 +79,42 @@ export const palfreshProducts = [
     },
 
     introTitle: "Your Daily Nutrition in Mix Veg.",
-    introText: "A nutritious blend of farm-fresh vegetables, frozen instantly.",
+    introText:
+      "A nutritious blend of farm-fresh vegetables, frozen instantly to retain goodness.",
 
     story: [
-      "Harvesting – Fresh vegetables",
-      "Cleaning – Sorted and washed",
-      "Blanching – Preserves nutrients",
-      "Freezing – Advanced freezing",
+      {
+        title: "HARVESTING",
+        subtitle: "Fresh vegetables from farms",
+        text: "Vegetables are sourced directly from trusted farmers at peak freshness.",
+      },
+      {
+        title: "CLEANING",
+        subtitle: "Washed and sorted carefully",
+        text: "Each vegetable is cleaned and graded for quality and consistency.",
+      },
+      {
+        title: "BLANCHING",
+        subtitle: "Preserves nutrients and color",
+        text: "Quick blanching helps retain natural taste and nutrition.",
+      },
+      {
+        title: "FREEZING",
+        subtitle: "Advanced freezing process",
+        text: "Rapid freezing locks in freshness without compromising quality.",
+      },
     ],
 
-    offer: "Perfect for daily cooking, pulao and stir-fries.",
+    offer1:
+      "Welcome to Pal Frozen Foods, where we bring you the finest quality frozen green peas that are packed with freshness and flavor. As a leading name in the frozen food industry, we are dedicated to delivering excellence and ensuring that every bite of our green peas exceeds your expectations. At Pal Frozen Foods, we understand that green peas are not just another vegetable; they are a versatile ingredient that adds vibrancy and nutrition to a wide range of dishes. That's why we carefully source our green peas from trusted farmers who share our passion for quality and sustainability. ",
+    offer2:
+      "Our frozen green peas are harvested at their peak ripeness, carefully processed, and promptly frozen to lock in their natural sweetness and vibrant color. We take pride in preserving the nutritional value of our green peas, ensuring that they retain their vitamins, minerals, and fiber even after freezing. Whether you're a health-conscious individual, a culinary enthusiast, or a busy home cook, our frozen green peas are a convenient and delicious addition to your meals. From classic Indian curries to hearty soups, salads, stir-fries, and more, our green peas elevate the taste and nutritional profile of your favorite recipes. ",
+    offer3:
+      "Pal Frozen Foods is committed to providing you with the best. Our state-of-the-art facilities and stringent quality control measures ensure that every pack of our frozen green peas meets the highest standards. We take pride in bringing you a product that not only enhances your culinary creations but also nourishes your body. Explore our website and discover the convenience and quality of our frozen green peas. Let Pal Frozen Foods be your go-to source for premium frozen vegetables, as we bring you the essence of nature's goodness, preserved and ready to be enjoyed. Experience the delight of our frozen green peas and elevate your meals to a whole new level.",
     otherProducts: ["Green Peas", "Sweet Corn", "Soya Chaap"],
   },
 
-  // sweet corn
+  // ================= SWEET CORN =================
   {
     slug: "sweet-corn",
     subtitle: "FROZEN SWEET",
@@ -89,19 +132,38 @@ export const palfreshProducts = [
       "Our Frozen Sweet Corn is processed under hygienic conditions to retain its natural sweetness.",
 
     story: [
-      "Harvesting – Fresh corns harvested from farms",
-      "Cleaning – Carefully cleaned and sorted well",
-      "Blanching – Quick blanching to lock freshness",
-      "Freezing – Rapid freezing at optimal temperature",
+      {
+        title: "HARVESTING",
+        subtitle: "Fresh corns harvested from farms",
+        text: "Only premium quality corn is handpicked from reliable farms.",
+      },
+      {
+        title: "CLEANING",
+        subtitle: "Carefully cleaned and sorted",
+        text: "Each corn kernel is cleaned to ensure superior quality.",
+      },
+      {
+        title: "BLANCHING",
+        subtitle: "Locks freshness instantly",
+        text: "Quick blanching preserves sweetness, color, and nutrients.",
+      },
+      {
+        title: "FREEZING",
+        subtitle: "Rapid freezing at ideal temperature",
+        text: "Advanced freezing ensures long-lasting freshness.",
+      },
     ],
 
-    offer:
-      "Pal Frozen Foods brings you premium frozen sweet corn, perfect for salads, soups, curries, pulao, fried rice and snacks.",
-
+    offer1:
+      "Welcome to Pal Frozen Foods, where we bring you the finest quality frozen green peas that are packed with freshness and flavor. As a leading name in the frozen food industry, we are dedicated to delivering excellence and ensuring that every bite of our green peas exceeds your expectations. At Pal Frozen Foods, we understand that green peas are not just another vegetable; they are a versatile ingredient that adds vibrancy and nutrition to a wide range of dishes. That's why we carefully source our green peas from trusted farmers who share our passion for quality and sustainability. ",
+    offer2:
+      "Our frozen green peas are harvested at their peak ripeness, carefully processed, and promptly frozen to lock in their natural sweetness and vibrant color. We take pride in preserving the nutritional value of our green peas, ensuring that they retain their vitamins, minerals, and fiber even after freezing. Whether you're a health-conscious individual, a culinary enthusiast, or a busy home cook, our frozen green peas are a convenient and delicious addition to your meals. From classic Indian curries to hearty soups, salads, stir-fries, and more, our green peas elevate the taste and nutritional profile of your favorite recipes. ",
+    offer3:
+      "Pal Frozen Foods is committed to providing you with the best. Our state-of-the-art facilities and stringent quality control measures ensure that every pack of our frozen green peas meets the highest standards. We take pride in bringing you a product that not only enhances your culinary creations but also nourishes your body. Explore our website and discover the convenience and quality of our frozen green peas. Let Pal Frozen Foods be your go-to source for premium frozen vegetables, as we bring you the essence of nature's goodness, preserved and ready to be enjoyed. Experience the delight of our frozen green peas and elevate your meals to a whole new level.",
     otherProducts: ["Frozen Green Peas", "Frozen Mix Veg", "Frozen Broccoli"],
   },
 
-  // soya chaap
+  // ================= SOYA CHAAP =================
   {
     slug: "soya-chaap",
     subtitle: "FROZEN SOYA",
@@ -116,18 +178,37 @@ export const palfreshProducts = [
 
     introTitle: "Protein-Packed, Flavor-Filled Soya Chaap.",
     introText:
-      "We offer a premium quality frozen soya chaap packed with high protein content.",
+      "We offer premium quality frozen soya chaap packed with high protein content.",
 
     story: [
-      "Harvesting – High-quality soya sourced from trusted suppliers",
-      "Cleaning – Carefully processed and prepared",
-      "Blanching – Ensures texture and taste retention",
-      "Freezing – Advanced freezing technology to lock freshness",
+      {
+        title: "SOURCING",
+        subtitle: "High-quality soya selection",
+        text: "Soya is sourced from trusted suppliers to ensure protein richness.",
+      },
+      {
+        title: "PROCESSING",
+        subtitle: "Carefully prepared and shaped",
+        text: "Processed under hygienic conditions for perfect texture.",
+      },
+      {
+        title: "BLANCHING",
+        subtitle: "Maintains taste and structure",
+        text: "Blanching ensures taste retention and firmness.",
+      },
+      {
+        title: "FREEZING",
+        subtitle: "Advanced freezing technology",
+        text: "Locks freshness, flavor, and nutrition instantly.",
+      },
     ],
 
-    offer:
-      "Pal Frozen Foods brings you premium frozen Soya Chaap perfect for grills, curries and starters.",
-
+    offer1:
+      "Welcome to Pal Frozen Foods, where we bring you the finest quality frozen green peas that are packed with freshness and flavor. As a leading name in the frozen food industry, we are dedicated to delivering excellence and ensuring that every bite of our green peas exceeds your expectations. At Pal Frozen Foods, we understand that green peas are not just another vegetable; they are a versatile ingredient that adds vibrancy and nutrition to a wide range of dishes. That's why we carefully source our green peas from trusted farmers who share our passion for quality and sustainability. ",
+    offer2:
+      "Our frozen green peas are harvested at their peak ripeness, carefully processed, and promptly frozen to lock in their natural sweetness and vibrant color. We take pride in preserving the nutritional value of our green peas, ensuring that they retain their vitamins, minerals, and fiber even after freezing. Whether you're a health-conscious individual, a culinary enthusiast, or a busy home cook, our frozen green peas are a convenient and delicious addition to your meals. From classic Indian curries to hearty soups, salads, stir-fries, and more, our green peas elevate the taste and nutritional profile of your favorite recipes. ",
+    offer3:
+      "Pal Frozen Foods is committed to providing you with the best. Our state-of-the-art facilities and stringent quality control measures ensure that every pack of our frozen green peas meets the highest standards. We take pride in bringing you a product that not only enhances your culinary creations but also nourishes your body. Explore our website and discover the convenience and quality of our frozen green peas. Let Pal Frozen Foods be your go-to source for premium frozen vegetables, as we bring you the essence of nature's goodness, preserved and ready to be enjoyed. Experience the delight of our frozen green peas and elevate your meals to a whole new level.",
     otherProducts: ["Frozen Green Peas", "Frozen Sweet Corn", "Frozen Mix Veg"],
   },
 ];

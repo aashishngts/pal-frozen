@@ -6,6 +6,7 @@ import GoodnessSection from "../components/palfresh/GoodnessSection";
 import ProductsSection from "../components/palfresh/ProductsSection";
 import Footer from "../components/Footer";
 import ProductRenderer from "../components/palfresh/ProductRenderer";
+import WhatWeOffer from "../components/palfresh/WhatWeOffer";
 
 export default function PalFresh() {
   return (
@@ -18,6 +19,7 @@ export default function PalFresh() {
       <ProductsSection />
 
       <ProductRenderer/>
+      <WhatWeOffer/>
     </>
   );
 }

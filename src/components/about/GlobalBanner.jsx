@@ -33,14 +33,14 @@ export default function GlobalBanner() {
         style={{
           clipPath:
             window.innerWidth >= 640
-              ? "polygon(0 40%, 100% 0, 100% 100%, 0% 100%)"
+              ? "polygon(0 90%, 100% 0, 100% 100%, 0% 100%)"
               : "none",
         }}
       >
-        <p className="text-xs sm:text-sm font-semibold tracking-wide">
+        <p className="text-xs text-right sm:text-sm font-semibold tracking-wide">
           A LEGACY EXPANDING GLOBALLY
         </p>
-        <p className="text-xs sm:text-sm opacity-90 mt-1">
+        <p className="text-xs text-right sm:text-sm opacity-90 mt-1">
           Make in India to Make for the World.
         </p>
       </div>

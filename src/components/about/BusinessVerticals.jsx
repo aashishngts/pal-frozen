@@ -6,7 +6,7 @@ import img4 from "../../assets/smgroup/img4.png"
 
 export default function BusinessVerticals() {
   return (
-    <section className="bg-[#0f5f3a] py-24">
+    <section className="bg-[#0f5f3a] py-10">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-16 text-center">
 
         {/* CARD 1 */}

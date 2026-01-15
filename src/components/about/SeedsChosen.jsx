@@ -1,6 +1,8 @@
+import seed from "../../assets/palfarm/seed.jpeg";
+
 export default function SeedsChosen() {
   return (
-    <section className="py-32 bg-white">
+    <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-20 items-center">
         
         {/* LEFT CONTENT */}
@@ -29,7 +31,7 @@ export default function SeedsChosen() {
         {/* RIGHT IMAGE */}
         <div className="flex justify-center">
           <img
-            src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6"
+            src={seed}
             alt="Seeds Chosen"
             className="w-full max-w-lg object-cover"
           />

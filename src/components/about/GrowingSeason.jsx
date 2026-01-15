@@ -1,7 +1,7 @@
 import growing from "../../assets/palfarm/farmers.jpeg";
 export default function GrowingSeason() {
   return (
-    <section className="bg-white py-28">
+    <section className="bg-white py-20">
       <div className="max-w-7xl mx-auto">
         
        
@@ -42,9 +42,6 @@ export default function GrowingSeason() {
             />
           </div>
         </div>
-
-        {/* BOTTOM DIVIDER */}
-        <div className="border-t border-gray-300 mt-24"></div>
       </div>
     </section>
   );

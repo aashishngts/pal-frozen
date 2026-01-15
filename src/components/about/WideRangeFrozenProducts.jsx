@@ -1,6 +1,6 @@
 export default function WideRangeFrozenProducts() {
   return (
-    <section className="bg-green-900 py-28">
+    <section className="bg-green-900 py-20">
       <div className="max-w-5xl mx-auto px-6 text-center text-white">
 
         {/* HEADING */}

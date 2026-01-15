@@ -1,15 +1,15 @@
 export default function StorySection() {
   return (
-    <section className="py-24 px-4 bg-white">
+    <section className="py-20 px-4 bg-white">
       <div className="max-w-5xl mx-auto text-center">
 
         {/* Title */}
-        <h2 className="text-2xl md:text-3xl font-semibold text-green-800 mb-12 tracking-wide">
+        <h2 className="text-xl md:text-2xl font-semibold text-green-800 mb-12 tracking-wide">
           STORY BEHIND PALFRESH
         </h2>
 
         {/* Content */}
-        <div className="text-gray-700 text-base md:text-lg leading-relaxed space-y-6 text-left">
+        <div className="text-gray-700 text-base md:text-sm leading-relaxed space-y-6 text-left">
           <p>
             Founded by SM Pal Group, Pal Frozen Food entered the market in 2013
             with a clear aim to redefine frozen food quality. Under the brand

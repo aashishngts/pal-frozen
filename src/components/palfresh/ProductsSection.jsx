@@ -14,11 +14,11 @@ const products = [
 
 export default function ProductsSection() {
   return (
-    <section className="py-24 px-4 bg-gray-100">
+    <section className="py-20 px-4 bg-gray-100">
       <div className="max-w-7xl mx-auto text-center">
 
         {/* Heading */}
-        <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-3">
+        <h2 className="text-xl md:text-2xl font-semibold text-gray-800 mb-3">
           OUR FROZEN VEGETABLES
         </h2>
 
@@ -35,7 +35,7 @@ export default function ProductsSection() {
         </p>
 
         {/* Products */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5">
           {products.map((item, i) => (
             <div key={i} className="bg-white p-6 shadow-sm">
               <img
@@ -43,7 +43,7 @@ export default function ProductsSection() {
                 alt={item.name}
                 className="w-full h-56 object-contain mb-4"
               />
-              <p className="text-gray-800 font-medium">
+              <p className="text-gray-800 font-sm">
                 {item.name}
               </p>
             </div>

@@ -1,6 +1,6 @@
 export default function PalFarmsIntro() {
   return (
-    <section className="py-32 bg-white text-center">
+    <section className="py-20 bg-white text-center">
       {/* TITLE */}
       <h2 className="text-3xl text-green-800 mb-2">
         PAL FARMS

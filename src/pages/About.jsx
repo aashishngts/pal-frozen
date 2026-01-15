@@ -26,33 +26,32 @@ import GlobalTrustIndicators from "../components/about/GlobalTrustIndicators";
 export default function About() {
   return (
     <>
-      <Hero
-        title="About Us"
-        subtitle="Rooted in Values. Growing with Purpose."
-      />
+      <Hero />
 
-      <PalGroupIntro/>
-      <BusinessVerticals/>
-      <VisionSection/>
-      <PalFreshGlobal/>
-      <GlobalBanner/>
-      <GlobalReach/>
-      <ContactInfo/>
-      <OwnerSection/>
-      <QuoteStrip/>
-      <PalFarmsIntro/>
-      <FarmsBanner/>
-      <PalFarmsFamily/>
-      <GrowingSeason/>
-      <Harvesting/>
-      <Farmers/>
-      <FieldDoesSeventy/>
-      <ThisIsPalFarm/>
-      <WideRangeFrozenProducts/>
+      <PalGroupIntro />
+      <BusinessVerticals />
+      <VisionSection />
+      <PalFreshGlobal />
+      <GlobalBanner />
+      <GlobalReach />
+      <ContactInfo />
+      <OwnerSection />
+      <QuoteStrip />
 
-      <GlobalPresence/>
-      <FrozenProductsRange/>
-      <GlobalTrustIndicators/>
+      <PalFarmsIntro />
+      <FarmsBanner />
+      <SeedsChosen />
+      <PalFarmsFamily />
+      <GrowingSeason />
+      <Harvesting />
+      <Farmers />
+      <FieldDoesSeventy />
+      <ThisIsPalFarm />
+      <WideRangeFrozenProducts />
+
+      <GlobalPresence />
+      <FrozenProductsRange />
+      <GlobalTrustIndicators />
     </>
   );
 }

@@ -6,7 +6,7 @@ import india from "../../assets/icons/made-in-india.png";
 
 export default function GlobalTrustIndicators() {
   return (
-    <section className="py-16 sm:py-24 lg:py-32 text-center">
+    <section className="py-10 sm:py-24 lg:py-20 text-center">
       {/* Heading */}
       <h2 className="
         text-green-800

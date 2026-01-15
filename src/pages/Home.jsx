@@ -29,23 +29,27 @@ export default function Home() {
 
       {/* ================= ABOUT ================= */}
       <section className="py-16 sm:py-20 lg:py-24 text-center max-w-4xl mx-auto px-4 sm:px-6">
-        <h2 className="
+        <h2
+          className="
           text-xl
           sm:text-2xl
           tracking-widest
           text-green-800
           mb-6
           sm:mb-8
-        ">
+        "
+        >
           PAL FROZEN FOODS
         </h2>
 
-        <p className="
+        <p
+          className="
           text-gray-600
           leading-relaxed
           text-sm
           sm:text-base
-        ">
+        "
+        >
           In 2013, SM Pal Group entered the field of agriculture-based
           processing as Pal Frozen Foods specializing in planning, processing,
           and producing quality vegetables and snacks under brands “Pal Fresh”
@@ -54,7 +58,8 @@ export default function Home() {
           Bangalore, Dehradun, Kochi, etc.
         </p>
 
-        <button className="
+        <button
+          className="
           mt-8
           sm:mt-10
           underline
@@ -62,7 +67,8 @@ export default function Home() {
           text-gray-700
           hover:text-green-800
           transition
-        ">
+        "
+        >
           Read More
         </button>
       </section>
@@ -71,8 +77,8 @@ export default function Home() {
       <ProductsSection />
 
       {/* ================= PURE GOODNESS ================= */}
-<section
-  className="
+      <section
+        className="
     relative
     w-full
     min-h-[260px]
@@ -81,16 +87,16 @@ export default function Home() {
     flex
     items-end
   "
-  style={{
-    backgroundImage:
-      "url(https://static.wixstatic.com/media/852e77_51cf7d86399f4639afed6b241cbe72d3~mv2.jpg)",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-  }}
->
-  {/* GREEN OVERLAY */}
-  <div
-    className="
+        style={{
+          backgroundImage:
+            "url(https://static.wixstatic.com/media/852e77_51cf7d86399f4639afed6b241cbe72d3~mv2.jpg)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        {/* GREEN OVERLAY */}
+        <div
+          className="
       w-full
       bg-green-900
       px-6
@@ -101,42 +107,42 @@ export default function Home() {
       text-right
       text-white
     "
-    style={{
-      clipPath:
-        window.innerWidth >= 640
-          ? "polygon(0% 100%, 100% 0%, 100% 100%, 0% 100%)"
-          : "none",
-    }}
-  >
-    <h3
-      className="
+          style={{
+            clipPath:
+              window.innerWidth >= 640
+                ? "polygon(0% 100%, 100% 0%, 100% 100%, 0% 100%)"
+                : "none",
+          }}
+        >
+          <h3
+            className="
         text-lg
         sm:text-2xl
         lg:text-3xl
         font-semibold
         leading-tight
       "
-    >
-      PURE GOODNESS
-    </h3>
+          >
+            PURE GOODNESS
+          </h3>
 
-    <p
-      className="
+          <p
+            className="
         text-sm
         sm:text-base
         lg:text-lg
         mt-1
         leading-snug
       "
-    >
-      Sourced From Nature.
-    </p>
-  </div>
-</section>
-
+          >
+            Sourced From Nature.
+          </p>
+        </div>
+      </section>
 
       {/* ================= FARMS TEXT ================= */}
-      <section className="
+      <section
+        className="
         py-16
         sm:py-20
         lg:py-24
@@ -145,24 +151,29 @@ export default function Home() {
         px-4
         sm:px-6
         text-center
-      ">
-        <h2 className="
+      "
+      >
+        <h2
+          className="
           text-lg
           sm:text-xl
           tracking-widest
           text-green-800
           mb-6
           sm:mb-10
-        ">
+        "
+        >
           FROM OUR FARMS, TO YOUR FREEZER!
         </h2>
 
-        <p className="
+        <p
+          className="
           text-gray-600
           leading-relaxed
           text-sm
           sm:text-base
-        ">
+        "
+        >
           At Pal Frozen Foods, we believe great taste begins with responsible
           choices. That’s why we partner with trusted farmers who follow
           sustainable practices, ensuring every vegetable is grown with care for

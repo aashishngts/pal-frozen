@@ -1,6 +1,6 @@
 export default function VisionSection() {
   return (
-    <section className="py-32 text-center bg-white">
+    <section className="py-10 text-center bg-white">
       <h2 className="text-2xl text-green-800 mb-10">
         TRANSFORMING LIVES FOR A BETTER FUTURE
       </h2>

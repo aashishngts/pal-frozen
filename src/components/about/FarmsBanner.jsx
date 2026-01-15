@@ -34,7 +34,7 @@ export default function FarmsBanner() {
         style={{
           clipPath:
             window.innerWidth >= 640
-              ? "polygon(0 100%, 100% 40%, 100% 100%, 0% 100%)"
+              ? "polygon(0 100%, 100% 0%, 100% 100%, 0% 100%)"
               : "none",
         }}
       >

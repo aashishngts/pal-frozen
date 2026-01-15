@@ -20,27 +20,23 @@ export default function Hero({
       <div className="relative z-10 flex items-center h-full">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="max-w-xl">
-            <h1 className="
-              text-3xl
-              sm:text-4xl
-              md:text-5xl
-              lg:text-6xl
-              font-semibold
-              text-green-800
-              mb-4
-              leading-tight
-            ">
+            <h1
+              className=" text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold text-green-800 mb-4 leading-tight whitespace-nowrap overflow-hidden text-ellipsis"
+            >
               {title}
             </h1>
 
-            <p className="
+            <p
+              className="
               uppercase
               tracking-wide
               text-xs
               sm:text-sm
               md:text-base
               text-gray-700
-            ">
+              text-center
+            "
+            >
               {subtitle}
             </p>
           </div>

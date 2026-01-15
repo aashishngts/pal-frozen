@@ -8,6 +8,8 @@ import Blogs from "./pages/Blogs";
 import About from "./pages/About";
 import PalFresh from "./pages/PalFresh";
 import GetInTouch from "./pages/GetInTouch";
+import GetInTouch2 from "./pages/GetInTouch2";
+import CookieConsent from "./components/CookieConsent";
 
 /* TEMP PAGES */
 const ComingSoon = ({ title }) => (
@@ -19,6 +21,7 @@ const ComingSoon = ({ title }) => (
 export default function App() {
   return (
     <BrowserRouter>
+      <CookieConsent />
       <Navbar />
 
       <Routes>
@@ -28,9 +31,9 @@ export default function App() {
         <Route path="/blog" element={<Blogs />} />
 
         {/* TEMP PAGES */}
-        <Route path="/pal-fresh" element={<PalFresh/>} />
+        <Route path="/pal-fresh" element={<PalFresh />} />
         <Route path="/frozzo" element={<ComingSoon title="Frozzo" />} />
-        <Route path="/contact" element={<GetInTouch/>} />
+        <Route path="/contact" element={<GetInTouch2 />} />
 
         {/* FALLBACK (OPTIONAL but SAFE) */}
         <Route path="*" element={<ComingSoon title="Page Not Found" />} />

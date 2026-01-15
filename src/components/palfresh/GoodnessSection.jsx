@@ -4,7 +4,7 @@ import noAdditives from "../../assets/palfresh/no-additives.png";
 
 export default function GoodnessSection() {
   return (
-    <section className="py-24 px-4 bg-white">
+    <section className="py-20 px-4 bg-white">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
         {/* Icons */}
@@ -33,11 +33,11 @@ export default function GoodnessSection() {
 
         {/* Content */}
         <div>
-          <h2 className="text-2xl md:text-3xl font-semibold text-green-800 mb-6">
+          <h2 className="text-xl md:text-2xl font-semibold text-green-800 mb-6">
             GOODNESS YOU CAN TRUST
           </h2>
 
-          <p className="text-gray-700 text-base md:text-lg leading-relaxed">
+          <p className="text-gray-700 text-base md:text-sm leading-relaxed">
             At Pal Frozen Foods, we bring you vegetables just the way nature
             intended – fresh, nutritious, and untouched by unnecessary
             chemicals. Our products contain no added colours, no preservatives,
