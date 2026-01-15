@@ -4,8 +4,6 @@ import ProductsSection from "../components/ProductsSection";
 
 
 
-const heroImages = [bg1, bg2, bg3, bg4];
-
 export default function Home() {
   const [index, setIndex] = useState(0);
 
