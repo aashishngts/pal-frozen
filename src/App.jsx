@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Blogs from "./pages/Blogs";
 import About from "./pages/About";
 import PalFresh from "./pages/PalFresh";
+import GetInTouch from "./pages/GetInTouch";
 
 /* TEMP PAGES */
 const ComingSoon = ({ title }) => (
@@ -29,7 +30,7 @@ export default function App() {
         {/* TEMP PAGES */}
         <Route path="/pal-fresh" element={<PalFresh/>} />
         <Route path="/frozzo" element={<ComingSoon title="Frozzo" />} />
-        <Route path="/contact" element={<ComingSoon title="Contact" />} />
+        <Route path="/contact" element={<GetInTouch/>} />
 
         {/* FALLBACK (OPTIONAL but SAFE) */}
         <Route path="*" element={<ComingSoon title="Page Not Found" />} />

@@ -6,39 +6,91 @@ import india from "../../assets/icons/made-in-india.png";
 
 export default function GlobalTrustIndicators() {
   return (
-    <section className="py-32 text-center">
+    <section className="py-16 sm:py-24 lg:py-32 text-center">
       {/* Heading */}
-      <h2 className="text-green-800 text-lg font-medium tracking-wide mb-20">
+      <h2 className="
+        text-green-800
+        text-base
+        sm:text-lg
+        font-medium
+        tracking-wide
+        mb-12
+        sm:mb-16
+        lg:mb-20
+      ">
         TRUSTED GLOBAL PLAYERS
         <br />
         PAL FROZEN FOODS
       </h2>
 
       {/* Icons */}
-      <div className="max-w-6xl mx-auto grid grid-cols-5 gap-16">
+      <div className="
+        max-w-6xl
+        mx-auto
+        grid
+        grid-cols-2
+        sm:grid-cols-3
+        lg:grid-cols-5
+        gap-10
+        sm:gap-14
+        lg:gap-16
+        px-4
+        sm:px-6
+      ">
+        {/* ITEM */}
         <div className="flex flex-col items-center">
-          <img src={fridge} className="h-20 mb-6" alt="" />
-          <p className="text-sm">Long Shelf Life</p>
+          <img
+            src={fridge}
+            alt="Long Shelf Life"
+            className="h-14 sm:h-16 lg:h-20 mb-4 sm:mb-6"
+          />
+          <p className="text-xs sm:text-sm">
+            Long Shelf Life
+          </p>
         </div>
 
         <div className="flex flex-col items-center">
-          <img src={gear} className="h-20 mb-6" alt="" />
-          <p className="text-sm">Controlled Process</p>
+          <img
+            src={gear}
+            alt="Controlled Process"
+            className="h-14 sm:h-16 lg:h-20 mb-4 sm:mb-6"
+          />
+          <p className="text-xs sm:text-sm">
+            Controlled Process
+          </p>
         </div>
 
         <div className="flex flex-col items-center">
-          <img src={handshake} className="h-20 mb-6" alt="" />
-          <p className="text-sm">Consistent Quality</p>
+          <img
+            src={handshake}
+            alt="Consistent Quality"
+            className="h-14 sm:h-16 lg:h-20 mb-4 sm:mb-6"
+          />
+          <p className="text-xs sm:text-sm">
+            Consistent Quality
+          </p>
         </div>
 
         <div className="flex flex-col items-center">
-          <img src={stopwatch} className="h-20 mb-6" alt="" />
-          <p className="text-sm">Quick Turnaround Time</p>
+          <img
+            src={stopwatch}
+            alt="Quick Turnaround Time"
+            className="h-14 sm:h-16 lg:h-20 mb-4 sm:mb-6"
+          />
+          <p className="text-xs sm:text-sm">
+            Quick Turnaround Time
+          </p>
         </div>
 
         <div className="flex flex-col items-center">
-          <img src={india} className="h-20 mb-6" alt="" />
-          <p className="text-sm">Made In India</p>
+          <img
+            src={india}
+            alt="Made in India"
+            className="h-14 sm:h-16 lg:h-20 mb-4 sm:mb-6"
+          />
+          <p className="text-xs sm:text-sm">
+            Made In India
+          </p>
         </div>
       </div>
     </section>

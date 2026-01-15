@@ -1,55 +1,49 @@
-import { useEffect, useState } from "react";
-
-/* TEMP PLACEHOLDER IMAGES */
-import bg1 from "../assets/bg.png";
-import bg2 from "../assets/bg.png";
-import bg3 from "../assets/bg.png";
-import bg4 from "../assets/bg.png";
-
-const heroImages = [bg1, bg2, bg3, bg4];
+import heroVideo from "../assets/hero-video.mp4";
 
 export default function Hero({
   title = "Serving the freshness",
   subtitle = "From our farms, to your freezer!",
 }) {
-  const [index, setIndex] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setIndex((prev) => (prev + 1) % heroImages.length);
-    }, 4000);
-
-    return () => clearInterval(interval);
-  }, []);
-
   return (
-    <section className="relative h-[80vh] overflow-hidden">
-      {/* SLIDING BACKGROUND */}
-      <div
-        className="flex h-full transition-transform duration-1000 ease-in-out"
-        style={{ transform: `translateX(-${index * 100}%)` }}
-      >
-        {heroImages.map((img, i) => (
-          <div
-            key={i}
-            className="min-w-full h-full bg-cover bg-center"
-            style={{ backgroundImage: `url(${img})` }}
-          />
-        ))}
-      </div>
-
-      {/* WHITE OVERLAY */}
-      <div className="absolute inset-0 bg-white/70" />
+    <section className="relative h-[70vh] sm:h-[80vh] lg:h-[100vh] overflow-hidden">
+      {/* BACKGROUND VIDEO */}
+      <video
+        className="absolute inset-0 w-full h-full object-cover"
+        src={heroVideo}
+        autoPlay
+        loop
+        muted
+        playsInline
+      />
 
       {/* TEXT CONTENT */}
-      <div className="absolute inset-0 flex items-center">
-        <div className="max-w-7xl mx-auto px-6 w-full">
-          <h1 className="text-5xl font-semibold text-green-800 mb-4">
-            {title}
-          </h1>
-          <p className="uppercase tracking-wide text-gray-700">
-            {subtitle}
-          </p>
+      <div className="relative z-10 flex items-center h-full">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+          <div className="max-w-xl">
+            <h1 className="
+              text-3xl
+              sm:text-4xl
+              md:text-5xl
+              lg:text-6xl
+              font-semibold
+              text-green-800
+              mb-4
+              leading-tight
+            ">
+              {title}
+            </h1>
+
+            <p className="
+              uppercase
+              tracking-wide
+              text-xs
+              sm:text-sm
+              md:text-base
+              text-gray-700
+            ">
+              {subtitle}
+            </p>
+          </div>
         </div>
       </div>
     </section>

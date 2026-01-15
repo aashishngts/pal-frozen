@@ -1,29 +1,48 @@
-import sea from "../../assets/palfreshglobal/sea.jpeg"
+import sea from "../../assets/palfreshglobal/sea.jpeg";
+
 export default function GlobalBanner() {
   return (
     <section
-      className="relative h-[420px] w-full"
+      className="
+        relative
+        w-full
+        min-h-[260px]
+        sm:min-h-[320px]
+        lg:min-h-[420px]
+        flex
+        items-end
+      "
       style={{
         backgroundImage: `url(${sea})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
-      {/* GREEN DIAGONAL STRIP */}
+      {/* GREEN OVERLAY */}
       <div
-        className="absolute bottom-0 left-0 w-full h-[35%] bg-[#0f5f3a] flex items-center px-24"
+        className="
+          w-full
+          bg-[#0f5f3a]
+          px-6
+          sm:px-12
+          lg:px-24
+          py-6
+          sm:py-8
+          text-white
+        "
         style={{
-          clipPath: "polygon(0 40%, 100% 0, 100% 100%, 0% 100%)",
+          clipPath:
+            window.innerWidth >= 640
+              ? "polygon(0 40%, 100% 0, 100% 100%, 0% 100%)"
+              : "none",
         }}
       >
-        <div className="text-white">
-          <p className="text-sm font-semibold">
-            A LEGACY EXPANDING GLOBALLY
-          </p>
-          <p className="text-xs">
-            Make in India to Make for the World.
-          </p>
-        </div>
+        <p className="text-xs sm:text-sm font-semibold tracking-wide">
+          A LEGACY EXPANDING GLOBALLY
+        </p>
+        <p className="text-xs sm:text-sm opacity-90 mt-1">
+          Make in India to Make for the World.
+        </p>
       </div>
     </section>
   );

@@ -1,14 +1,26 @@
 export default function ContactInfo() {
   return (
-    <section className="py-32 bg-white text-center">
+    <section className="py-20 sm:py-24 lg:py-32 bg-white text-center">
       {/* HEADING */}
-      <h2 className="text-2xl text-green-800 mb-16">
+      <h2 className="text-xl sm:text-2xl text-green-800 mb-12 sm:mb-16">
         FOR MORE INFORMATION
       </h2>
 
       {/* TOP INFO ROW */}
-      <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-20 mb-20 text-sm text-gray-700">
-
+      <div className="
+        max-w-6xl
+        mx-auto
+        px-4
+        sm:px-6
+        grid
+        grid-cols-1
+        md:grid-cols-3
+        gap-12
+        md:gap-20
+        mb-16
+        text-sm
+        text-gray-700
+      ">
         {/* ADDRESS */}
         <div>
           <h4 className="font-medium mb-4">
@@ -23,23 +35,32 @@ export default function ContactInfo() {
         <div>
           <h4 className="font-medium mb-4">Contact</h4>
           <p>+971 50 573 8300 | +971 50 453 5039</p>
-          <p className="underline mt-2">gmae@smpalgroup.com</p>
+          <a
+            href="mailto:gmae@smpalgroup.com"
+            className="underline mt-2 inline-block hover:text-green-800"
+          >
+            gmae@smpalgroup.com
+          </a>
         </div>
 
         {/* HOURS */}
         <div>
           <h4 className="font-medium mb-4">Opening Hours</h4>
-          <p>Mon - Sat &nbsp;&nbsp; 9:00 am - 6:00 pm</p>
+          <p>Mon - Sat &nbsp; 9:00 am - 6:00 pm</p>
         </div>
       </div>
 
-      {/* MAP */}
-      <div className="max-w-5xl mx-auto px-6">
-        <img
-          src="https://dummyimage.com/900x400/f3f4f6/9ca3af&text=Google+Map"
-          alt="Map"
-          className="mx-auto"
-        />
+      {/* GOOGLE MAP */}
+      <div className="max-w-5xl mx-auto px-4 sm:px-6">
+        <div className="relative w-full h-[250px] sm:h-[320px] lg:h-[400px] rounded-lg overflow-hidden shadow">
+          <iframe
+            title="PalFresh Global Trading LLC Location"
+            src="https://www.google.com/maps?q=Bin+Shabib+Mall+Al+Qusais+Dubai&output=embed"
+            className="absolute inset-0 w-full h-full border-0"
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+        </div>
       </div>
     </section>
   );
