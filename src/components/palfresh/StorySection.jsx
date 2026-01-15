@@ -2,41 +2,43 @@ export default function StorySection() {
   return (
     <section className="py-20 px-4 bg-white">
       <div className="max-w-5xl mx-auto text-center">
-
         {/* Title */}
         <h2 className="text-xl md:text-2xl font-semibold text-green-800 mb-12 tracking-wide">
-          STORY BEHIND PALFRESH
+          STORY BEHIND SAILOR EXPORTS LIMITED
         </h2>
 
         {/* Content */}
         <div className="text-gray-700 text-base md:text-sm leading-relaxed space-y-6 text-left">
           <p>
-            Founded by SM Pal Group, Pal Frozen Food entered the market in 2013
-            with a clear aim to redefine frozen food quality. Under the brand
-            &apos;Pal Fresh,&apos; we provide premium frozen vegetables and fruits,
-            trusted across the globe for our unwavering commitment to freshness
-            and excellence.
+            Founded with a vision to deliver farm-fresh quality to global
+            markets, Sailor Exports Limited emerged as a company committed to
+            excellence in frozen food exports. From its inception, the
+            organization focused on preserving the natural taste, nutrition, and
+            freshness of agricultural produce through advanced processing
+            techniques. What started as a focused effort to meet international
+            quality standards soon grew into a trusted name among global buyers.
+            The company’s philosophy has always revolved around quality,
+            consistency, and long-term partnerships. This strong foundation
+            continues to guide every aspect of its operations.
           </p>
 
           <p>
-            Driven by a &apos;people-first&apos; mindset, SM Pal Group expanded its
-            footprint across the world, fueled by a dedicated team and a passion
-            for quality. With our dedicated farmers under the supervision of our
-            expert team, committed to upholding the Pal Group&apos;s legacy, the
-            company has set its sights on even greater heights across the world.
+            Driven by a people-first approach, Sailor Exports Limited believes
+            that strong teams and trusted farmers are the backbone of
+            sustainable growth. Working closely with dedicated farmers under
+            expert supervision, the company ensures strict quality control from
+            harvest to freezing. Every process reflects the values of
+            transparency, responsibility, and respect for the Pal Group legacy.
           </p>
 
           <p>
-            Pal Fresh provides convenient, high-quality frozen foods tailored to
-            our client needs, using a state-of-the-art cold chain system for safe
-            and hygienic delivery. As we grow, our commitment to transparency and
-            customer satisfaction defines the core of our operations. Join us in
-            our journey towards setting new benchmarks in the frozen food
-            industry. With Pal Fresh, experience a commitment to freshness and
-            quality that you can trust.
+            Sailor Exports Limited offers premium frozen food solutions designed
+            to meet diverse client requirements worldwide. With a robust
+            cold-chain infrastructure, the company ensures safe, hygienic, and
+            timely delivery of products. Customer satisfaction and operational
+            transparency remain central to its business philosophy.
           </p>
         </div>
-
       </div>
     </section>
   );

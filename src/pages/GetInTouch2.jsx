@@ -27,14 +27,13 @@ export default function GetInTouch2() {
             <div className="space-y-4 text-sm text-gray-700">
               <p>
                 <span className="font-medium">Email:</span>{" "}
-                marketing@smpalgroup.com
+                export@sailorexport.com
               </p>
               <p>
-                <span className="font-medium">Phone:</span>+91 9045599277
+                <span className="font-medium">Phone:</span>+91 6269699699
               </p>
               <p>
-                <span className="font-medium">Location:</span> Uttarakhand,
-                India
+                <span className="font-medium">Location:</span> 179/3, Patthar Mundla Rd, Palda Naka, Dinesh Nagar, Palda, Indore, Madhya Pradesh 452001
               </p>
             </div>
           </div>

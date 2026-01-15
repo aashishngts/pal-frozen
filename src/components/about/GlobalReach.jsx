@@ -20,7 +20,7 @@ export default function GlobalReach() {
           </h2>
 
           <p className="text-sm text-gray-600 leading-relaxed mb-10">
-            We believe freshness has no boundaries. From our base in Dubai,
+            We believe freshness has no boundaries. From our base in Indore,
             we have grown into a trusted global supplier, delivering premium
             frozen vegetables to wholesalers, retailers, hotels, and
             distributors worldwide. With every shipment, we carry our promise

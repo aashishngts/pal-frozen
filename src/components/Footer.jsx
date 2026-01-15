@@ -7,7 +7,8 @@ export default function Footer() {
   return (
     <footer className="bg-[#efeff1] pt-16 sm:pt-20">
       {/* MAIN GRID */}
-      <div className="
+      <div
+        className="
         max-w-7xl
         mx-auto
         px-4
@@ -19,19 +20,15 @@ export default function Footer() {
         gap-10
         text-sm
         text-gray-700
-      ">
+      "
+      >
         {/* ABOUT */}
         <div>
           <h4 className="text-green-800 text-base sm:text-lg mb-4 sm:mb-6">
             About Us
           </h4>
           <p className="leading-relaxed text-sm">
-            In 2013, SM Pal Group entered the field of agriculture-based
-            processing as Pal Frozen Foods specializing in planning, processing,
-            and producing quality vegetables and snacks under brands “Pal Fresh”
-            and Frozzo. With homegrown supplies and our own frozen plant in
-            Haldwani, Uttarakhand and Depots in metro cities like Lucknow,
-            Bangalore, Dehradun, Kochi, etc.
+            Sailor Exports Limited is a trusted name in the frozen food industry, known for delivering high-quality products to global markets. The company specializes in sourcing, processing, and exporting frozen food items that meet strict international quality and safety standards. With a strong focus on hygiene and freshness, Sailor Exports Limited follows well-defined cold-chain processes to preserve taste, texture, and nutritional value.
           </p>
         </div>
 
@@ -69,28 +66,28 @@ export default function Footer() {
             <p className="flex gap-3 items-start">
               <span>📍</span>
               <span>
-                Palam City, Devalchaur, Opp. Pal Ford, Rampur Road, Haldwani –{" "}
-                <b>Uttarakhand</b> 263139
+                179/3, Patthar Mundla Rd, Palda Naka, Dinesh Nagar, Palda,{" "} 
+                 <b>Indore, Madhya Pradesh</b> 452001
               </span>
             </p>
 
             <p className="flex gap-3">
               <span>📞</span>
               <a
-                href="tel:+919045599277"
+                href="tel:+916269699699"
                 className="underline hover:text-green-800"
               >
-                +91 9045599277
+                +91 6269699699
               </a>
             </p>
 
             <p className="flex gap-3">
               <span>✉️</span>
               <a
-                href="mailto:marketing@smpalgroup.com"
+                href="mailto:export@sailorexport.com"
                 className="underline hover:text-green-800"
               >
-                marketing@smpalgroup.com
+                export@sailorexport.com
               </a>
             </p>
           </div>
@@ -104,7 +101,7 @@ export default function Footer() {
 
           {/* PAL FRESH */}
           <div className="mb-6 sm:mb-8">
-            <p className="mb-3 font-medium">Pal Fresh</p>
+            <p className="mb-3 font-medium">The Frozen Company</p>
             <div className="flex gap-4">
               <a className="social-icon">
                 <img src={FacebookIcon} alt="Facebook" />
@@ -121,29 +118,12 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* FROZZO */}
-          <div>
-            <p className="mb-3 font-medium">Frozzo</p>
-            <div className="flex gap-4">
-              <a className="social-icon">
-                <img src={FacebookIcon} alt="Facebook" />
-              </a>
-              <a className="social-icon">
-                <img src={InstagramIcon} alt="Instagram" />
-              </a>
-              <a className="social-icon">
-                <img src={LinkedinIcon} alt="LinkedIn" />
-              </a>
-              <a className="social-icon">
-                <img src={WhatsappIcon} alt="Whatsapp" />
-              </a>
-            </div>
-          </div>
         </div>
       </div>
 
       {/* BOTTOM BAR */}
-      <div className="
+      <div
+        className="
         max-w-7xl
         mx-auto
         px-4
@@ -161,7 +141,8 @@ export default function Footer() {
         items-center
         justify-between
         gap-3
-      ">
+      "
+      >
         <p className="text-center sm:text-left">
           © 2023 by Pal Fresh.{" "}
           <span className="underline">

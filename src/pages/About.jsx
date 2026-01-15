@@ -29,16 +29,16 @@ export default function About() {
       <Hero />
 
       <PalGroupIntro />
-      <BusinessVerticals />
+      {/* <BusinessVerticals /> */}
       <VisionSection />
-      <PalFreshGlobal />
+      {/* <PalFreshGlobal /> */}
       <GlobalBanner />
       <GlobalReach />
       <ContactInfo />
-      <OwnerSection />
-      <QuoteStrip />
+      {/* <OwnerSection /> */}
+      {/* <QuoteStrip /> */}
 
-      <PalFarmsIntro />
+      {/* <PalFarmsIntro />
       <FarmsBanner />
       <SeedsChosen />
       <PalFarmsFamily />
@@ -51,7 +51,7 @@ export default function About() {
 
       <GlobalPresence />
       <FrozenProductsRange />
-      <GlobalTrustIndicators />
+      <GlobalTrustIndicators /> */}
     </>
   );
 }

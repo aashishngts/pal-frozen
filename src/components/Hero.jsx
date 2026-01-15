@@ -21,7 +21,7 @@ export default function Hero({
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="max-w-xl">
             <h1
-              className=" text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold text-green-800 mb-4 leading-tight whitespace-nowrap overflow-hidden text-ellipsis"
+              className=" text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold text-[#179EDB] mb-4 leading-tight whitespace-nowrap overflow-hidden text-ellipsis"
             >
               {title}
             </h1>

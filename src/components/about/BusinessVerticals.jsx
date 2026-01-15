@@ -40,7 +40,7 @@ export default function BusinessVerticals() {
             className="mx-auto mb-6"
           />
           <p className="text-sm text-gray-600 leading-relaxed">
-            Diversification continued for SM Pal Group in the automobile
+            Diversification continued for Sailor Exports Limited in the automobile
             dealership group started Pal Ford, Pal Nissan and Pal Skoda.
           </p>
         </div>

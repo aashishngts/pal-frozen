@@ -1,8 +1,8 @@
-import cauliflower from "../../assets/palfresh/cauliflower.jpeg";
-import beans from "../../assets/palfresh/beans.jpeg";
-import broccoli from "../../assets/palfresh/broccoli.jpeg";
-import soya from "../../assets/palfresh/soya-chaap.jpeg";
-import corn from "../../assets/palfresh/sweet-corn.jpeg";
+import cauliflower from "../../assets/palfresh/packets/cAULIFLOWER.png";
+import beans from "../../assets/palfresh/packets/Green Peas.png";
+import broccoli from "../../assets/palfresh/packets/Broccoli.png";
+import soya from "../../assets/palfresh/packets/Lady FInger.png";
+import corn from "../../assets/palfresh/packets/Sweet Corn.png";
 
 const products = [
   { img: cauliflower, name: "Frozen Cauliflower" },

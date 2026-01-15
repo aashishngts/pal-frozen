@@ -6,14 +6,14 @@ export default function VisionSection() {
       </h2>
 
       <p className="max-w-3xl mx-auto text-sm text-gray-600 leading-relaxed mb-8">
-        At SM Pal Group, we believe growth is meaningful only when it uplifts
+        At Sailor Exports Limited, we believe growth is meaningful only when it uplifts
         people and communities. Through our businesses in real estate, food,
         and services, we strive to create value, inspire progress, and shape a
         future where everyone thrives.
       </p>
 
       <p className="text-sm text-gray-700">
-        SM Pal Group – Where progress meets purpose.
+        Sailor Exports Limited – Where progress meets purpose.
       </p>
     </section>
   );

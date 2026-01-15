@@ -1,13 +1,13 @@
 
-import img5 from "../../assets/smgroup/img5.png"
+import img5 from "../../assets/smgroup/sailor_exports_limited.png"
 export default function PalGroupIntro() {
   return (
     <section className="py-10 text-center bg-white">
       {/* LOGO */}
       <img
         src={img5}
-        alt="SM Pal Group"
-        className="mx-auto mb-4"
+        alt="Sailor Exports Limited"
+        className="mx-auto w-70 mb-4"
       />
 
       {/* SUB TITLE */}
@@ -16,31 +16,15 @@ export default function PalGroupIntro() {
       {/* CONTENT */}
       <div className="max-w-4xl mx-auto text-sm text-gray-600 leading-relaxed space-y-6">
         <p>
-          Headquartered in Haldwani, the SM Pal Group, founded by Mr. Suresh Pal
-          (Owner of Pal Group) in 1982, boasts over 42 years of expertise,
-          thriving across diverse business verticals including Pal Stone
-          Industries, Pal Prateek motors – Pal Ford, Pal Nissan and Pal Skoda
-          Dealerships, Pal Colonizers, and Pal Frozen Foods.
+          Sailor Exports Limited is a trusted name in the frozen food industry, known for delivering high-quality products to global markets. The company specializes in sourcing, processing, and exporting frozen food items that meet strict international quality and safety standards. With a strong focus on hygiene and freshness, Sailor Exports Limited follows well-defined cold-chain processes to preserve taste, texture, and nutritional value. Their modern infrastructure and advanced freezing technology help maintain consistent product quality across shipments. This commitment has enabled the company to build long-term relationships with buyers worldwide.
         </p>
 
         <p>
-          Mr. Suresh Pal, Mrs. Meera Pal and Mr. Prateek Pal are at the forefront
-          of the Pal Group Haldwani, which is today a renowned group known across
-          the business fraternity with a global vision. With a focus on a
-          transparent and customer-centric approach to business and as
-          responsible corporate citizens, Pal Group Haldwani strives to
-          demonstrate integrity and clarity in doing business with our clients,
-          every step of the way.
+          Operating with a customer-centric approach, Sailor Exports Limited places great emphasis on reliability and timely delivery. The company works closely with farmers and suppliers to ensure traceability and consistency in raw materials. Each stage of processing is carefully monitored to comply with global food safety regulations and certifications. By adopting best practices in packaging and storage, the company ensures products reach end consumers in optimal condition. 
         </p>
       </div>
 
-      {/* READ MORE */}
-      <div className="mt-12">
-        <button className="underline text-sm text-gray-700">
-          Read More
-        </button>
-      </div>
-
+      
       {/* DIVIDER */}
       <div className="mt-20 w-full border-t border-gray-400" />
     </section>

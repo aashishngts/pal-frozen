@@ -1,12 +1,7 @@
-
 import Hero from "../components/Hero";
 import ProductsSection from "../components/ProductsSection";
 
-
-
 export default function Home() {
-
-
   return (
     <>
       {/* ================= HERO ================= */}
@@ -24,7 +19,7 @@ export default function Home() {
           sm:mb-8
         "
         >
-          PAL FROZEN FOODS
+          THE FROZEN COMPANY
         </h2>
 
         <p
@@ -35,27 +30,15 @@ export default function Home() {
           sm:text-base
         "
         >
-          In 2013, SM Pal Group entered the field of agriculture-based
-          processing as Pal Frozen Foods specializing in planning, processing,
-          and producing quality vegetables and snacks under brands “Pal Fresh”
-          and “Frozzo”. With homegrown supplies and our own frozen plant in
-          Haldwani, Uttarakhand and Depots in metro cities like Lucknow,
-          Bangalore, Dehradun, Kochi, etc.
+          In The Frozen Company we grows own vegetables by contract farming to
+          maintain the quality and essence of the product. It helps us to have
+          products available as per our requirement with assured eminence. We
+          get in a pre-agreed price for the raw material from the farmers with
+          buy back guarantee to the farmers. The production unit of the company
+          is located at Haldwani with automated machines and equipment used for
+          cutting, peeling and shedding of the material. Every equipment is PLC
+          Control.
         </p>
-
-        <button
-          className="
-          mt-8
-          sm:mt-10
-          underline
-          text-sm
-          text-gray-700
-          hover:text-green-800
-          transition
-        "
-        >
-          Read More
-        </button>
       </section>
 
       {/* ================= PRODUCTS ================= */}
@@ -63,15 +46,7 @@ export default function Home() {
 
       {/* ================= PURE GOODNESS ================= */}
       <section
-        className="
-    relative
-    w-full
-    min-h-[260px]
-    sm:min-h-[300px]
-    lg:min-h-[320px]
-    flex
-    items-end
-  "
+        className=" relative w-full min-h-[260px] sm:min-h-[300px] lg:min-h-[320px] flex items-end"
         style={{
           backgroundImage:
             "url(https://static.wixstatic.com/media/852e77_51cf7d86399f4639afed6b241cbe72d3~mv2.jpg)",
@@ -159,7 +134,7 @@ export default function Home() {
           sm:text-base
         "
         >
-          At Pal Frozen Foods, we believe great taste begins with responsible
+          At The Frozen Company, we believe great taste begins with responsible
           choices. That’s why we partner with trusted farmers who follow
           sustainable practices, ensuring every vegetable is grown with care for
           the soil, water, and environment.

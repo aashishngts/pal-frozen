@@ -1,17 +1,17 @@
 import peasBg from "../assets/palfresh/peas/bg.jpeg";
-import peasPack from "../assets/palfresh/peas/pack.png";
+import peasPack from "../assets/palfresh/packets/Green Peas.png";
 import peasBowl from "../assets/palfresh/peas/bowl.png";
 
 import mixVegBg from "../assets/palfresh/mixveg/bg.jpeg";
-import mixVegPack from "../assets/palfresh/mixveg/pack.png";
+import mixVegPack from "../assets/palfresh/packets/Broccoli.png";
 import mixVegBowl from "../assets/palfresh/mixveg/bowl.png";
 
 import cornBg from "../assets/palfresh/sweetcorn/bg.png";
-import cornPack from "../assets/palfresh/sweetcorn/pack.png";
+import cornPack from "../assets/palfresh/packets/Sweet Corn.png";
 import cornBowl from "../assets/palfresh/sweetcorn/bowl.png";
 
 import soyaBg from "../assets/palfresh/soyachaap/bg.png";
-import soyaPack from "../assets/palfresh/soyachaap/pack.png";
+import soyaPack from "../assets/palfresh/packets/Lady FInger.png";
 import soyaBowl from "../assets/palfresh/soyachaap/bowl.png";
 
 export const palfreshProducts = [
@@ -65,11 +65,11 @@ export const palfreshProducts = [
     otherProducts: ["Mix Veg", "Sweet Corn", "Broccoli"],
   },
 
-  // ================= MIX VEG =================
+  // ================= BROCCOLI =================
   {
-    slug: "mix-veg",
+    slug: "broccoli",
     subtitle: "FROZEN MIX",
-    title: "VEG",
+    title: "BROCCOLI",
     themeColor: "#6E7F4A",
 
     images: {
@@ -78,30 +78,30 @@ export const palfreshProducts = [
       bowl: mixVegBowl,
     },
 
-    introTitle: "Your Daily Nutrition in Mix Veg.",
+    introTitle: "Your Daily Nutrition in Broccoli",
     introText:
-      "A nutritious blend of farm-fresh vegetables, frozen instantly to retain goodness.",
+      "A premium selection of farm-fresh broccoli, carefully harvested and instantly frozen to preserve its natural nutrients, vibrant color, and crisp texture. Packed with essential vitamins and minerals, our broccoli brings wholesome goodness and convenience to your everyday meals.",
 
     story: [
       {
         title: "HARVESTING",
-        subtitle: "Fresh vegetables from farms",
-        text: "Vegetables are sourced directly from trusted farmers at peak freshness.",
+        subtitle: "Fresh broccoli from farms",
+        text: "Broccoli is harvested from trusted farms at peak maturity to ensure maximum freshness and nutrition.",
       },
       {
         title: "CLEANING",
         subtitle: "Washed and sorted carefully",
-        text: "Each vegetable is cleaned and graded for quality and consistency.",
+        text: "Each broccoli floret is thoroughly cleaned and graded for uniform size and consistent quality.",
       },
       {
         title: "BLANCHING",
         subtitle: "Preserves nutrients and color",
-        text: "Quick blanching helps retain natural taste and nutrition.",
+        text: "Quick blanching helps retain broccoli’s natural green color, taste, and essential nutrients.",
       },
       {
         title: "FREEZING",
         subtitle: "Advanced freezing process",
-        text: "Rapid freezing locks in freshness without compromising quality.",
+        text: "Rapid freezing locks in freshness, texture, and nutritional value without compromising quality.",
       },
     ],
 
@@ -129,8 +129,7 @@ export const palfreshProducts = [
 
     introTitle: "Sweet Corn, Sweetness You’ll Love.",
     introText:
-      "Our Frozen Sweet Corn is processed under hygienic conditions to retain its natural sweetness.",
-
+      "Our frozen sweet corn is carefully harvested at peak maturity and processed under strict hygienic conditions to preserve its natural sweetness, tender texture, and nutritional value. Quickly frozen to lock in freshness, it delivers consistent taste and quality in every serving, making it a perfect addition to your everyday meals.",
     story: [
       {
         title: "HARVESTING",
@@ -165,9 +164,9 @@ export const palfreshProducts = [
 
   // ================= SOYA CHAAP =================
   {
-    slug: "soya-chaap",
-    subtitle: "FROZEN SOYA",
-    title: "CHAAP",
+    slug: "ladyfinger",
+    subtitle: "FROZEN ",
+    title: "LADYFINGER",
     themeColor: "#C62828",
 
     images: {
@@ -176,30 +175,30 @@ export const palfreshProducts = [
       bowl: soyaBowl,
     },
 
-    introTitle: "Protein-Packed, Flavor-Filled Soya Chaap.",
+    introTitle: "Fresh, Nutritious & Flavorful Ladyfinger",
     introText:
-      "We offer premium quality frozen soya chaap packed with high protein content.",
+      "We offer premium quality frozen ladyfinger, carefully selected and hygienically processed to retain its natural freshness, tender texture, and nutritional value. Rich in dietary fiber and essential nutrients, our ladyfinger is quickly frozen to lock in flavor, making it a healthy and convenient choice for everyday cooking.",
 
     story: [
       {
         title: "SOURCING",
-        subtitle: "High-quality soya selection",
-        text: "Soya is sourced from trusted suppliers to ensure protein richness.",
+        subtitle: "Fresh ladyfinger selection",
+        text: "Ladyfinger is carefully sourced from trusted farmers to ensure freshness, tenderness, and quality.",
       },
       {
         title: "PROCESSING",
-        subtitle: "Carefully prepared and shaped",
-        text: "Processed under hygienic conditions for perfect texture.",
+        subtitle: "Cleaned and carefully prepared",
+        text: "The produce is hygienically cleaned, trimmed, and prepared to maintain its natural texture.",
       },
       {
         title: "BLANCHING",
-        subtitle: "Maintains taste and structure",
-        text: "Blanching ensures taste retention and firmness.",
+        subtitle: "Preserves color and nutrients",
+        text: "Blanching helps retain the natural green color, flavor, and nutritional value of ladyfinger.",
       },
       {
         title: "FREEZING",
-        subtitle: "Advanced freezing technology",
-        text: "Locks freshness, flavor, and nutrition instantly.",
+        subtitle: "Quick-freeze technology",
+        text: "Advanced freezing locks in freshness, taste, and nutrients for long-lasting quality.",
       },
     ],
 

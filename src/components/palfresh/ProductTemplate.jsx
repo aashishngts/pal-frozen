@@ -43,7 +43,7 @@ function ProductTemplate({ product }) {
                   <img
                     src={product.images.pack}
                     alt="Product Package"
-                    className="relative z-10 object-contain"
+                    className="relative z-10 object-contain w-100"
                   />
                 )}
               </div>
@@ -124,7 +124,7 @@ function ProductTemplate({ product }) {
                 <img
                   src={product.images.bowl}
                   alt=""
-                  className="absolute -bottom-10 left-1/2 -translate-x-1/2 w-[420px] object-contain"
+                  className="absolute -bottom-30 left-1/2 -translate-x-1/2  w-[320px] object-contain"
                 />
               )}
             </div>

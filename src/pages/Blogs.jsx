@@ -14,9 +14,8 @@ const BLOGS = [
   {
     id: 1,
     category: "All Posts",
-    title: "Why Pal Frozen Foods Are the Smartest Choice for Every Kitchen.",
-    desc:
-      "In today's fast-paced world, where time is precious and quality matters more than ever...",
+    title: "Why Frozen Foods Are the Smartest Choice for Every Kitchen.",
+    desc: "In today's fast-paced world, where time is precious and quality matters more than ever, frozen foods offer the perfect balance of convenience, nutrition, and reliability...",
     author: "Team Marketing",
     date: "Nov 13, 2025",
     read: "3 min read",
@@ -27,9 +26,8 @@ const BLOGS = [
   {
     id: 2,
     category: "Events",
-    title: "Inflation In Agriculture: How Frozen Food Can Save Your Budget.",
-    desc:
-      "Remember when ₹100 filled your veggie bag full of fresh produce? Now, it barely gets you...",
+    title: "Inflation in Agriculture: How Frozen Foods Can Save Your Budget.",
+    desc: "Remember when ₹100 could fill your vegetable basket with fresh produce? Rising costs have changed that, but frozen foods offer a smart and cost-effective alternative...",
     author: "Team Marketing",
     date: "Aug 20, 2025",
     read: "3 min read",
@@ -41,9 +39,8 @@ const BLOGS = [
     id: 3,
     category: "Recipes",
     title:
-      "Perfectly Preserved: The Science And Innovation Behind Frozen Food.",
-    desc:
-      "Freezing food isn't just about convenience — it's a blend of history, chemistry...",
+      "Perfectly Preserved: The Science and Innovation Behind Frozen Foods.",
+    desc: "Freezing food isn’t just about convenience—it’s a careful process driven by science and innovation to preserve taste, texture, and nutrition...",
     author: "Team Marketing",
     date: "Jul 9, 2025",
     read: "3 min read",
@@ -54,10 +51,8 @@ const BLOGS = [
   {
     id: 4,
     category: "All Posts",
-    title:
-      "The Growing Pea Market: A Green Revolution In The Food Industry.",
-    desc:
-      "The global pea market is witnessing extraordinary growth, transforming this humble legume...",
+    title: "The Growing Frozen Vegetable Market: A Green Revolution in Food.",
+    desc: "The global frozen vegetable market is witnessing remarkable growth, reshaping how consumers access nutritious and long-lasting food options...",
     author: "Team Marketing",
     date: "Mar 28, 2025",
     read: "5 min read",
@@ -114,10 +109,7 @@ export default function Blogs() {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {filteredBlogs.map((blog) => (
-            <div
-              key={blog.id}
-              className="border bg-white flex flex-col"
-            >
+            <div key={blog.id} className="border bg-white flex flex-col">
               {/* IMAGE */}
               <img
                 src={blog.img}
@@ -144,9 +136,7 @@ export default function Blogs() {
                 </h3>
 
                 {/* DESC */}
-                <p className="text-sm text-gray-600 flex-1">
-                  {blog.desc}
-                </p>
+                <p className="text-sm text-gray-600 flex-1">{blog.desc}</p>
 
                 {/* FOOTER ICONS */}
                 <div className="flex items-center justify-between mt-6 text-xs text-gray-500">

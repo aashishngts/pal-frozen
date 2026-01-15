@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import Logo from "../assets/icons/logo.png";
+import Logo from "../assets/icons/Frozen_logo.png";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -8,7 +8,7 @@ export default function Navbar() {
   const navItems = [
     { name: "Home", to: "/" },
     { name: "About Us", to: "/about" },
-    { name: "Pal Fresh", to: "/pal-fresh" },
+    { name: "The Frozen Company", to: "/pal-fresh" },
     { name: "Blog", to: "/blog" },
     { name: "Get In Touch", to: "/contact" },
   ];
@@ -35,8 +35,8 @@ export default function Navbar() {
               className={({ isActive }) =>
                 `transition-colors ${
                   isActive
-                    ? "text-purple-600"
-                    : "hover:text-purple-600"
+                    ? "text-[#179EDB]"
+                    : "hover:text-[#0f77a7]"
                 }`
               }
             >

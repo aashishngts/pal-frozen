@@ -6,7 +6,6 @@ export default function GoodnessSection() {
   return (
     <section className="py-20 px-4 bg-white">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-
         {/* Icons */}
         <div className="flex flex-col sm:flex-row gap-10 justify-center">
           <div className="text-center">
@@ -38,16 +37,17 @@ export default function GoodnessSection() {
           </h2>
 
           <p className="text-gray-700 text-base md:text-sm leading-relaxed">
-            At Pal Frozen Foods, we bring you vegetables just the way nature
-            intended – fresh, nutritious, and untouched by unnecessary
-            chemicals. Our products contain no added colours, no preservatives,
-            and no additives, ensuring that every bite is packed with natural
-            goodness. With advanced freezing technology, we lock in the taste,
-            texture, and nutrients so you can enjoy farm-fresh quality with
-            complete peace of mind.
+            At Sailor Exports Limited, we deliver frozen vegetables and fruits
+            just the way nature intended—fresh, nutritious, and carefully
+            preserved. Our products contain no added colours, no preservatives,
+            and no unnecessary additives, ensuring pure and natural goodness in
+            every bite. Using advanced freezing technology, we lock in taste,
+            texture, and essential nutrients from farm to freezer. Every process
+            is designed to meet strict quality and safety standards for complete
+            peace of mind. With Sailor Exports Limited, you can trust the
+            freshness you serve every day.
           </p>
         </div>
-
       </div>
     </section>
   );
