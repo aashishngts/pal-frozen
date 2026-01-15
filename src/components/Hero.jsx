@@ -1,4 +1,4 @@
-import heroVideo from "../assets/hero-video.mp4";
+import heroVideo from "../assets/hero-video1.mp4";
 
 export default function Hero({
   title = "Serving the freshness",

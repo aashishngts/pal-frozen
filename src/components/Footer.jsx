@@ -144,7 +144,7 @@ export default function Footer() {
       "
       >
         <p className="text-center sm:text-left">
-          © 2023 by Pal Fresh.{" "}
+          © 2025 by The Fresh Copmany.{" "}
           <span className="underline">
             Proudly created with Sailor Exports Limited
           </span>
