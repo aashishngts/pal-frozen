@@ -2,11 +2,7 @@ import { useEffect, useState } from "react";
 import Hero from "../components/Hero";
 import ProductsSection from "../components/ProductsSection";
 
-/* TEMP PLACEHOLDER IMAGES */
-import bg1 from "../assets/bg.png";
-import bg2 from "../assets/bg.png";
-import bg3 from "../assets/bg.png";
-import bg4 from "../assets/bg.png";
+
 
 const heroImages = [bg1, bg2, bg3, bg4];
 
