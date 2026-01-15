@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 import FacebookIcon from "../assets/icons/facebook.png";
 import InstagramIcon from "../assets/icons/instagram.png";
 import LinkedinIcon from "../assets/icons/linkdin.png";
@@ -28,7 +30,9 @@ export default function Footer() {
             About Us
           </h4>
           <p className="leading-relaxed text-sm">
-            Sailor Exports Limited is a trusted name in the frozen food industry, known for delivering high-quality products to global markets. The company specializes in sourcing, processing, and exporting frozen food items that meet strict international quality and safety standards. With a strong focus on hygiene and freshness, Sailor Exports Limited follows well-defined cold-chain processes to preserve taste, texture, and nutritional value.
+            Sailor Exports Limited is a trusted name in the frozen food industry,
+            delivering high-quality products to global markets through strict
+            quality and cold-chain standards.
           </p>
         </div>
 
@@ -37,21 +41,36 @@ export default function Footer() {
           <h4 className="text-green-800 text-base sm:text-lg mb-4 sm:mb-6">
             Quick Links
           </h4>
+
           <ul className="space-y-2 sm:space-y-3">
-            <li className="hover:text-green-800 cursor-pointer">HOME</li>
-            <li className="hover:text-green-800 cursor-pointer">About Us</li>
-            <li className="hover:text-green-800 cursor-pointer">
-              Frozen Vegetables
+            <li>
+              <NavLink to="/" className="hover:text-green-800">
+                Home
+              </NavLink>
             </li>
-            <li className="hover:text-green-800 cursor-pointer">
-              Frozen Snacks
+
+            <li>
+              <NavLink to="/about" className="hover:text-green-800">
+                About Us
+              </NavLink>
             </li>
-            <li className="hover:text-green-800 cursor-pointer">Careers</li>
-            <li className="hover:text-green-800 cursor-pointer">
-              Become a Distributor
+
+            <li>
+              <NavLink to="/pal-fresh" className="hover:text-green-800">
+                The Frozen Company
+              </NavLink>
             </li>
-            <li className="hover:text-green-800 cursor-pointer">
-              Privacy Policy
+
+            <li>
+              <NavLink to="/blog" className="hover:text-green-800">
+                Blog
+              </NavLink>
+            </li>
+
+            <li>
+              <NavLink to="/contact" className="hover:text-green-800">
+                Get In Touch
+              </NavLink>
             </li>
           </ul>
         </div>
@@ -66,8 +85,8 @@ export default function Footer() {
             <p className="flex gap-3 items-start">
               <span>📍</span>
               <span>
-                179/3, Patthar Mundla Rd, Palda Naka, Dinesh Nagar, Palda,{" "} 
-                 <b>Indore, Madhya Pradesh</b> 452001
+                179/3, Patthar Mundla Rd, Palda Naka, Dinesh Nagar, Palda,{" "}
+                <b>Indore, Madhya Pradesh</b> 452001
               </span>
             </p>
 
@@ -99,25 +118,22 @@ export default function Footer() {
             Connect With Us
           </h4>
 
-          {/* PAL FRESH */}
-          <div className="mb-6 sm:mb-8">
-            <p className="mb-3 font-medium">The Frozen Company</p>
-            <div className="flex gap-4">
-              <a className="social-icon">
-                <img src={FacebookIcon} alt="Facebook" />
-              </a>
-              <a className="social-icon">
-                <img src={InstagramIcon} alt="Instagram" />
-              </a>
-              <a className="social-icon">
-                <img src={LinkedinIcon} alt="LinkedIn" />
-              </a>
-              <a className="social-icon">
-                <img src={WhatsappIcon} alt="Whatsapp" />
-              </a>
-            </div>
-          </div>
+          <p className="mb-3 font-medium">The Frozen Company</p>
 
+          <div className="flex gap-4">
+            <a href="#" aria-label="Facebook">
+              <img src={FacebookIcon} alt="Facebook" />
+            </a>
+            <a href="#" aria-label="Instagram">
+              <img src={InstagramIcon} alt="Instagram" />
+            </a>
+            <a href="#" aria-label="LinkedIn">
+              <img src={LinkedinIcon} alt="LinkedIn" />
+            </a>
+            <a href="#" aria-label="Whatsapp">
+              <img src={WhatsappIcon} alt="Whatsapp" />
+            </a>
+          </div>
         </div>
       </div>
 
@@ -144,13 +160,13 @@ export default function Footer() {
       "
       >
         <p className="text-center sm:text-left">
-          © 2025 by The Fresh Copmany.{" "}
+          © 2025 by The Frozen Company.{" "}
           <span className="underline">
             Proudly created with Sailor Exports Limited
           </span>
         </p>
 
-        <a href="#" className="underline hover:text-green-800">
+        <a href="#top" className="underline hover:text-green-800">
           Back to Top
         </a>
       </div>
