@@ -12,7 +12,6 @@ import cornBowl from "../assets/palfresh/sweetcorn/bowl.png";
 
 import soyaBg from "../assets/palfresh/soyachaap/bg.png";
 import soyaPack from "../assets/palfresh/packets/Lady FInger.png";
-import soyaBowl from "../assets/palfresh/soyachaap/bowl.png";
 
 export const palfreshProducts = [
   // ================= GREEN PEAS =================
@@ -162,7 +161,7 @@ export const palfreshProducts = [
     otherProducts: ["Frozen Green Peas", "Frozen Mix Veg", "Frozen Broccoli"],
   },
 
-  // ================= SOYA CHAAP =================
+  // ================= Lady Finger =================
   {
     slug: "ladyfinger",
     subtitle: "FROZEN ",
@@ -172,7 +171,6 @@ export const palfreshProducts = [
     images: {
       bg: soyaBg,
       pack: soyaPack,
-      bowl: soyaBowl,
     },
 
     introTitle: "Fresh, Nutritious & Flavorful Ladyfinger",
