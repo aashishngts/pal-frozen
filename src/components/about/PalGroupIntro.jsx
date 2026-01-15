@@ -10,9 +10,6 @@ export default function PalGroupIntro() {
         className="mx-auto w-70 mb-4"
       />
 
-      {/* SUB TITLE */}
-      <p className="text-sm mb-12">Nurtured Since 1982</p>
-
       {/* CONTENT */}
       <div className="max-w-4xl mx-auto text-sm text-gray-600 leading-relaxed space-y-6">
         <p>
