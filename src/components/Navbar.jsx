@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import Logo from "../assets/icons/Frozen_logo.png";
+import Logo from "../assets/icons/frozen_logo.png";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
