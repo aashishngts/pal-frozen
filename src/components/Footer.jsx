@@ -30,7 +30,7 @@ export default function Footer() {
             About Us
           </h4>
           <p className="leading-relaxed text-sm">
-            Sailor Exports Limited is a trusted name in the frozen food industry,
+            The Frozen Company is a trusted name in the frozen food industry,
             delivering high-quality products to global markets through strict
             quality and cold-chain standards.
           </p>
@@ -100,15 +100,7 @@ export default function Footer() {
               </a>
             </p>
 
-            <p className="flex gap-3">
-              <span>✉️</span>
-              <a
-                href="mailto:export@sailorexport.com"
-                className="underline hover:text-green-800"
-              >
-                export@sailorexport.com
-              </a>
-            </p>
+            
           </div>
         </div>
 
@@ -162,7 +154,7 @@ export default function Footer() {
         <p className="text-center sm:text-left">
           © 2025 by The Frozen Company.{" "}
           <span className="underline">
-            Proudly created with Sailor Exports Limited
+            Proudly created with The Frozen Company
           </span>
         </p>
 

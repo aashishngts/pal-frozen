@@ -36,12 +36,6 @@ export default function ContactInfo() {
         <div>
           <h4 className="font-medium mb-4">Contact</h4>
           <p>+91 6269699699</p>
-          <a
-            href="mailto:export@sailorexport.com"
-            className="underline mt-2 inline-block hover:text-green-800"
-          >
-            export@sailorexport.com
-          </a>
         </div>
 
         {/* HOURS */}

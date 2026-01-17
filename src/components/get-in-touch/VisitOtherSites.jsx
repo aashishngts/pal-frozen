@@ -51,7 +51,7 @@ export default function VisitOtherSites() {
         >
           <img
             src={smLogo}
-            alt="Sailor Exports Limited"
+            alt="The Frozen Company"
             className="h-16 sm:h-18 md:h-20 mb-6 object-contain"
           />
 
@@ -66,7 +66,7 @@ export default function VisitOtherSites() {
               sm:mb-10
             "
           >
-            As a company, Sailor Exports Limited dedicates all its hard work and passion
+            As a company, The Frozen Company dedicates all its hard work and passion
             to delivering to its customers the best. This has won the company
             unparalleled trust & confidence of its customers in the Kumaon
             Region.

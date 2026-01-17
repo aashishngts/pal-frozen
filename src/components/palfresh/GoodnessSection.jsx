@@ -37,14 +37,14 @@ export default function GoodnessSection() {
           </h2>
 
           <p className="text-gray-700 text-base md:text-sm leading-relaxed">
-            At Sailor Exports Limited, we deliver frozen vegetables and fruits
+            At The Frozen Company, we deliver frozen vegetables and fruits
             just the way nature intended—fresh, nutritious, and carefully
             preserved. Our products contain no added colours, no preservatives,
             and no unnecessary additives, ensuring pure and natural goodness in
             every bite. Using advanced freezing technology, we lock in taste,
             texture, and essential nutrients from farm to freezer. Every process
             is designed to meet strict quality and safety standards for complete
-            peace of mind. With Sailor Exports Limited, you can trust the
+            peace of mind. With The Frozen Company, you can trust the
             freshness you serve every day.
           </p>
         </div>

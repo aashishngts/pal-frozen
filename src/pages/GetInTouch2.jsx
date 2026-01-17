@@ -26,10 +26,6 @@ export default function GetInTouch2() {
 
             <div className="space-y-4 text-sm text-gray-700">
               <p>
-                <span className="font-medium">Email:</span>{" "}
-                export@sailorexport.com
-              </p>
-              <p>
                 <span className="font-medium">Phone:</span>+91 6269699699
               </p>
               <p>

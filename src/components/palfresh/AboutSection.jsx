@@ -1,4 +1,4 @@
-import logo from "../../assets/palfresh/TheFrozenFull.png";
+import logo from "../../assets/icons/frozen_logo.png";
 
 export default function AboutSection() {
   return (
@@ -15,7 +15,7 @@ export default function AboutSection() {
         </h2>
 
         <p className="text-gray-700 text-base md:text-sm leading-relaxed max-w-4xl mx-auto">
-          Driven by quality and care, Sailor Exports Limited specializes in
+          Driven by quality and care, The Frozen Company specializes in
           delivering premium frozen vegetables and fruits that retain their
           natural freshness and nutrition. Each product is carefully processed
           and sealed using high-quality packaging to ensure maximum protection

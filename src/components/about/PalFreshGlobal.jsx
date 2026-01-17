@@ -11,7 +11,7 @@ export default function PalFreshGlobal() {
       />
 
       {/* SUB TEXT */}
-      <p className="text-xs mb-12">A Sailor Exports Limited Venture</p>
+      <p className="text-xs mb-12">The Frozen Company Venture</p>
 
       {/* TITLE */}
       <h2 className="text-2xl text-green-800 mb-16">
@@ -21,7 +21,7 @@ export default function PalFreshGlobal() {
       {/* CONTENT */}
       <div className="max-w-4xl mx-auto text-sm text-gray-600 leading-relaxed space-y-6">
         <p>
-          Founded in 2013, Pal Frozen Foods represents Sailor Exports Limited’s strategic
+          Founded in 2013, Pal Frozen Foods represents The Frozen Company’s strategic
           expansion into the agriculture-based food processing sector. With a
           clear focus on quality and innovation, we have established ourselves
           as a trusted name in the frozen food industry, serving both domestic
