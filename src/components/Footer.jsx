@@ -152,7 +152,7 @@ export default function Footer() {
       "
       >
         <p className="text-center sm:text-left">
-          © 2025 by The Frozen Company.{" "}
+          © 2026 by The Frozen Company.{" "}
           <span className="underline">
             Proudly created with The Frozen Company
           </span>
