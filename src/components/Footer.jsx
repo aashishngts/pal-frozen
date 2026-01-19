@@ -68,8 +68,8 @@ export default function Footer() {
             <p className="flex gap-3 items-start">
               <span>📍</span>
               <span>
-                179/3, Patthar Mundla Rd, Palda Naka, Dinesh Nagar, Palda,{" "}
-                <b>Indore, Madhya Pradesh</b> 452001
+                6/2, NAYTA MUNDLA RAOD NEMAWAR ROAD,{" "}
+                <span>INDORE, MADHYA PRADESH</span> 452020
               </span>
             </p>
 
@@ -80,6 +80,15 @@ export default function Footer() {
                 className="underline hover:text-green-800"
               >
                 +91 9879299952
+              </a>
+            </p>
+            <p className="flex gap-3">
+              <span>📞</span>
+              <a
+                href="tel:+919879299952"
+                className="underline hover:text-green-800"
+              >
+                +91 7879912345
               </a>
             </p>
           </div>

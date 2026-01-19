@@ -27,8 +27,7 @@ export default function ContactInfo() {
         <div>
           <h4 className="font-medium mb-4">Office Address</h4>
           <p>
-            179/3, Patthar Mundla Rd, Palda Naka, Dinesh Nagar, Palda, Indore,
-            Madhya Pradesh 452001, India
+            6/2, NAYTA MUNDLA RAOD NEMAWAR ROAD, INDORE, MADHYA PRADESH - 452020
           </p>
         </div>
 
@@ -36,6 +35,7 @@ export default function ContactInfo() {
         <div>
           <h4 className="font-medium mb-4">Contact</h4>
           <p>+91 9879299952</p>
+          <p>+91 7879912345</p>
         </div>
 
         {/* HOURS */}

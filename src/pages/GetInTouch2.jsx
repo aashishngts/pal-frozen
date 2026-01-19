@@ -31,17 +31,17 @@ export default function GetInTouch2() {
                 <span className="font-medium">Director:</span> Roshan Vidhani
               </p>
               <p>
-                <span className="font-medium">Phone:</span> +91 98792 99952
+                <span className="font-medium">Phone:</span> +91 9879299952
+              </p>
+              <p>
+                <span className="font-medium">Phone:</span> +91 7879912345
               </p>
 
               <p>
                 <span className="font-medium">Office Address:</span>
                 <br />
-                179/3, Patthar Mundla Rd,
-                <br />
-                Palda Naka, Dinesh Nagar,
-                <br />
-                Palda, Indore, Madhya Pradesh – 452001
+                6/2, NAYTA MUNDLA RAOD NEMAWAR ROAD,
+                <br /> INDORE, MADHYA PRADESH – 452020
               </p>
 
               <p>
