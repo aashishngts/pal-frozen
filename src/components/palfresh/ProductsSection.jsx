@@ -6,9 +6,9 @@ import corn from "../../assets/palfresh/packets/Sweet Corn.png";
 
 const products = [
   { img: cauliflower, name: "Frozen Cauliflower" },
-  { img: beans, name: "Frozen Cut Beans" },
+  { img: beans, name: "Frozen Green Beans" },
   { img: broccoli, name: "Frozen Broccoli" },
-  { img: soya, name: "Frozen Soya Chaap" },
+  { img: soya, name: "Frozen Lady Fingers" },
   { img: corn, name: "Frozen Sweet Corn" },
 ];
 
