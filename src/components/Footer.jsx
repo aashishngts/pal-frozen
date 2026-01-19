@@ -51,12 +51,6 @@ export default function Footer() {
             </li>
 
             <li>
-              <NavLink to="/blog" className="hover:text-green-800">
-                Blog
-              </NavLink>
-            </li>
-
-            <li>
               <NavLink to="/contact" className="hover:text-green-800">
                 Get In Touch
               </NavLink>
