@@ -8,7 +8,7 @@ const products = [
   { img: cauliflower, name: "Frozen Cauliflower" },
   { img: beans, name: "Frozen Green Beans" },
   { img: broccoli, name: "Frozen Broccoli" },
-  { img: soya, name: "Frozen Lady Fingers" },
+  { img: soya, name: "Frozen Ladyfinger" },
   { img: corn, name: "Frozen Sweet Corn" },
 ];
 
