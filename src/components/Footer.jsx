@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import { MdEmail } from "react-icons/md";
 
 import FacebookIcon from "../assets/icons/facebook.png";
 import InstagramIcon from "../assets/icons/instagram.png";
@@ -24,7 +25,6 @@ export default function Footer() {
           text-gray-700
         "
       >
-
         {/* QUICK LINKS */}
         <div>
           <h4 className="text-green-800 text-base sm:text-lg mb-4 sm:mb-6">
@@ -73,6 +73,10 @@ export default function Footer() {
               </span>
             </p>
 
+            <p className="flex items-center gap-2">
+              <MdEmail className="text-pink-700 text-lg" />
+              <span>Sales@tfcfrozen.com</span>
+            </p>
             <p className="flex gap-3">
               <span>📞</span>
               <a
