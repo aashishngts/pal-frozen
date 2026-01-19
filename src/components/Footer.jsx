@@ -11,30 +11,19 @@ export default function Footer() {
       {/* MAIN GRID */}
       <div
         className="
-        max-w-7xl
-        mx-auto
-        px-4
-        sm:px-6
-        grid
-        grid-cols-1
-        sm:grid-cols-2
-        lg:grid-cols-4
-        gap-10
-        text-sm
-        text-gray-700
-      "
+          max-w-7xl
+          mx-auto
+          px-4
+          sm:px-6
+          grid
+          grid-cols-1
+          sm:grid-cols-2
+          lg:grid-cols-3
+          gap-10
+          text-sm
+          text-gray-700
+        "
       >
-        {/* ABOUT */}
-        <div>
-          <h4 className="text-green-800 text-base sm:text-lg mb-4 sm:mb-6">
-            About Us
-          </h4>
-          <p className="leading-relaxed text-sm">
-            The Frozen Company is a trusted name in the frozen food industry,
-            delivering high-quality products to global markets through strict
-            quality and cold-chain standards.
-          </p>
-        </div>
 
         {/* QUICK LINKS */}
         <div>
@@ -93,14 +82,12 @@ export default function Footer() {
             <p className="flex gap-3">
               <span>📞</span>
               <a
-                href="tel:+916269699699"
+                href="tel:+919879299952"
                 className="underline hover:text-green-800"
               >
-                +91 6269699699
+                +91 9879299952
               </a>
             </p>
-
-            
           </div>
         </div>
 
@@ -132,24 +119,24 @@ export default function Footer() {
       {/* BOTTOM BAR */}
       <div
         className="
-        max-w-7xl
-        mx-auto
-        px-4
-        sm:px-6
-        mt-12
-        sm:mt-16
-        py-4
-        sm:py-6
-        border-t
-        text-xs
-        text-gray-600
-        flex
-        flex-col
-        sm:flex-row
-        items-center
-        justify-between
-        gap-3
-      "
+          max-w-7xl
+          mx-auto
+          px-4
+          sm:px-6
+          mt-12
+          sm:mt-16
+          py-4
+          sm:py-6
+          border-t
+          text-xs
+          text-gray-600
+          flex
+          flex-col
+          sm:flex-row
+          items-center
+          justify-between
+          gap-3
+        "
       >
         <p className="text-center sm:text-left">
           © 2026 by The Frozen Company.{" "}

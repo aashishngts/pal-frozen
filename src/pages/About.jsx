@@ -30,10 +30,10 @@ export default function About() {
 
       <PalGroupIntro />
       {/* <BusinessVerticals /> */}
-      <VisionSection />
+      {/* <VisionSection /> */}
       {/* <PalFreshGlobal /> */}
       <GlobalBanner />
-      <GlobalReach />
+      {/* <GlobalReach /> */}
       <ContactInfo />
       {/* <OwnerSection /> */}
       {/* <QuoteStrip /> */}

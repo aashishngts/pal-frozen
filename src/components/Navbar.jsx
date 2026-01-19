@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import Logo from "../assets/icons/frozen_logo.png";
+import Logo from "../assets/icons/sailor_exports_limited_logo_png.png";
+import Logo2 from "../assets/icons/frozen_logo.png";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -9,25 +10,29 @@ export default function Navbar() {
     { name: "Home", to: "/" },
     { name: "About Us", to: "/about" },
     { name: "The Frozen Company", to: "/pal-fresh" },
-    { name: "Blog", to: "/blog" },
     { name: "Get In Touch", to: "/contact" },
   ];
 
   return (
     <header className="absolute top-0 left-0 right-0 z-50">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center">
         
-        {/* LOGO */}
-        <NavLink to="/" className="flex items-center">
+        {/* LOGOS (LEFT) */}
+        <NavLink to="/" className="flex items-center gap-6">
           <img
             src={Logo}
+            alt="Sailor Exports Logo"
+            className="h-14 sm:h-25 w-auto object-contain"
+          />
+          <img
+            src={Logo2}
             alt="PAL Frozen Foods Logo"
-            className="h-14 sm:h-16 md:h-20 w-auto object-contain"
+            className="h-14 sm:h-25 w-auto object-contain"
           />
         </NavLink>
 
-        {/* DESKTOP MENU */}
-        <nav className="hidden md:flex items-center gap-10 text-gray-800 font-medium">
+        {/* DESKTOP MENU (RIGHT) */}
+        <nav className="hidden md:flex items-center gap-10 text-gray-800 font-medium ml-auto">
           {navItems.map((item) => (
             <NavLink
               key={item.name}
@@ -45,14 +50,13 @@ export default function Navbar() {
           ))}
         </nav>
 
-        {/* HAMBURGER */}
+        {/* HAMBURGER (MOBILE) */}
         <button
-          className="md:hidden text-gray-800 z-50"
+          className="md:hidden text-gray-800 z-50 ml-auto"
           onClick={() => setOpen(!open)}
           aria-label="Toggle Menu"
         >
           {open ? (
-            /* CLOSE ICON */
             <svg
               className="w-8 h-8"
               fill="none"
@@ -67,7 +71,6 @@ export default function Navbar() {
               />
             </svg>
           ) : (
-            /* HAMBURGER ICON */
             <svg
               className="w-8 h-8"
               fill="none"
@@ -88,19 +91,9 @@ export default function Navbar() {
       {/* MOBILE MENU */}
       <div
         className={`
-          md:hidden
-          fixed
-          top-0
-          right-0
-          h-screen
-          w-3/4
-          bg-white
-          shadow-lg
-          z-50
-          transform
-          transition-transform
-          duration-300
-          ease-in-out
+          md:hidden fixed top-0 right-0 h-screen w-3/4
+          bg-white shadow-lg z-50
+          transform transition-transform duration-300 ease-in-out
           ${open ? "translate-x-0" : "translate-x-full"}
         `}
       >

@@ -1,4 +1,5 @@
 import Hero from "../components/Hero";
+import OtherProducts from "../components/palfresh/OtherProducts";
 import ProductsSection from "../components/ProductsSection";
 
 export default function Home() {
@@ -42,7 +43,7 @@ export default function Home() {
       </section>
 
       {/* ================= PRODUCTS ================= */}
-      <ProductsSection />
+      <OtherProducts/>
 
       {/* ================= PURE GOODNESS ================= */}
       <section
@@ -123,7 +124,7 @@ export default function Home() {
           sm:mb-10
         "
         >
-          FROM OUR FARMS, TO YOUR FREEZER!
+          Harvested at Peak Frozen to Perfection
         </h2>
 
         <p
@@ -134,10 +135,7 @@ export default function Home() {
           sm:text-base
         "
         >
-          At The Frozen Company, we believe great taste begins with responsible
-          choices. That’s why we partner with trusted farmers who follow
-          sustainable practices, ensuring every vegetable is grown with care for
-          the soil, water, and environment.
+          To ensure uncompromised quality authentic freshness through trusted contract farming to ensure uncompromised quality and authentic freshness. With assured sourcing at pre-agreed prices and a buy-back guarantee for farmers, we create a sustainable farm-to-factory ecosystem
         </p>
       </section>
     </>

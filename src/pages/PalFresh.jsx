@@ -14,7 +14,7 @@ export default function PalFresh() {
       <Hero />
       <AboutSection />
       <StrengthGrid />
-      <StorySection />
+      {/* <StorySection /> */}
       <GoodnessSection />
       <ProductsSection />
 

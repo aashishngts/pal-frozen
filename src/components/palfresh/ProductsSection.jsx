@@ -30,8 +30,8 @@ export default function ProductsSection() {
         <div className="w-24 h-px bg-gray-400 mx-auto mb-6"></div>
 
         <p className="text-lg mb-14">
-          <span className="text-orange-600 font-medium">Fresh Khao,</span>{" "}
-          <span className="text-green-700 font-medium">Healthy Raho!</span>
+          <span className="text-orange-600 font-medium">Harvested at Peak,</span>{" "}
+          <span className="text-green-700 font-medium">Frozen to Perfection</span>
         </p>
 
         {/* Products */}

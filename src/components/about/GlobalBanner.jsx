@@ -37,11 +37,11 @@ export default function GlobalBanner() {
               : "none",
         }}
       >
-        <p className="text-xs text-right sm:text-sm font-semibold tracking-wide">
-          A LEGACY EXPANDING GLOBALLY
+        <p className="text-xs text-right sm:text-xl font-semibold tracking-wide">
+          The Frozen Company
         </p>
-        <p className="text-xs text-right sm:text-sm opacity-90 mt-1">
-          Make in India to Make for the World.
+        <p className="text-xs text-right sm:text-xl font-semibold tracking-wide">
+          Where Progress Meets Purpose
         </p>
       </div>
     </section>

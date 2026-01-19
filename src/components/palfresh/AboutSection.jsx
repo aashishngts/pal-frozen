@@ -10,7 +10,7 @@ export default function AboutSection() {
           className="mx-auto mb-10 w-40 md:w-80"
         />
 
-        <h2 className="text-xl md:text-2xl font-semibold text-green-800 tracking-wide mb-8">
+        {/* <h2 className="text-xl md:text-2xl font-semibold text-green-800 tracking-wide mb-8">
           FROM OUR FARMS, TO YOUR FREEZER!
         </h2>
 
@@ -24,7 +24,7 @@ export default function AboutSection() {
           uncompromising standards. With a strong cold-chain system in place,
           every delivery promises safety, consistency, and taste. Sailor Exports
           Limited stands where freshness meets reliability in frozen foods.
-        </p>
+        </p> */}
         <div className="flex justify-center my-12">
           <div className="w-2/3 h-[1px] bg-gray-300"></div>
         </div>

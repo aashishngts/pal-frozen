@@ -1,8 +1,10 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { palfreshProducts } from "../../data/palfreshProducts";
 
 export default function OtherProducts() {
   const [index, setIndex] = useState(0);
+  const [paused, setPaused] = useState(false);
+
   const visibleCount = 3;
   const total = palfreshProducts.length;
 
@@ -14,12 +16,27 @@ export default function OtherProducts() {
     setIndex((prev) => (prev - 1 + total) % total);
   };
 
+  // AUTO SCROLL
+  useEffect(() => {
+    if (paused) return;
+
+    const interval = setInterval(() => {
+      setIndex((prev) => (prev + 1) % total);
+    }, 3000); // 3 sec delay
+
+    return () => clearInterval(interval);
+  }, [paused, total]);
+
   // duplicate list for smooth looping illusion
   const extendedProducts = [...palfreshProducts, ...palfreshProducts];
 
   return (
     <section className="py-20 px-4 bg-white border-t border-gray-200 overflow-hidden">
-      <div className="max-w-6xl mx-auto relative">
+      <div
+        className="max-w-6xl mx-auto relative"
+        onMouseEnter={() => setPaused(true)}
+        onMouseLeave={() => setPaused(false)}
+      >
         <p className="text-xs tracking-widest text-center mb-14 text-gray-800">
           OUR OTHER PRODUCTS
         </p>

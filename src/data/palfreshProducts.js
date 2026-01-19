@@ -1,17 +1,22 @@
-import peasBg from "../assets/palfresh/peas/bg.jpeg";
+import peasBg from "../assets/palfresh/peas/bg.png";
 import peasPack from "../assets/palfresh/packets/Green Peas.png";
 import peasBowl from "../assets/palfresh/peas/bowl.png";
 
-import mixVegBg from "../assets/palfresh/mixveg/bg.jpeg";
-import mixVegPack from "../assets/palfresh/packets/Broccoli.png";
-import mixVegBowl from "../assets/palfresh/mixveg/bowl.png";
+import brocBg from "../assets/palfresh/brocli/Brocli.png";
+import brocPack from "../assets/palfresh/packets/Broccoli.png";
+import brocBowl from "../assets/palfresh/brocli/bowl.png";
 
 import cornBg from "../assets/palfresh/sweetcorn/bg.png";
 import cornPack from "../assets/palfresh/packets/Sweet Corn.png";
 import cornBowl from "../assets/palfresh/sweetcorn/bowl.png";
 
-import soyaBg from "../assets/palfresh/soyachaap/bg.png";
-import soyaPack from "../assets/palfresh/packets/Lady FInger.png";
+import ladyBG from "../assets/palfresh/soyachaap/bg.png";
+import ladyPack from "../assets/palfresh/packets/Lady FInger.png";
+import ladyBowl from "../assets/palfresh/soyachaap/bowl.png";
+
+import cauliflowerBg from "../assets/palfresh/cauliflower/bg.png";
+import cauliflowerPack from "../assets/palfresh/packets/CAULIFLOWER.png";
+import cauliflowerBowl from "../assets/palfresh/cauliflower/bowl.png";
 
 export const palfreshProducts = [
   // ================= GREEN PEAS =================
@@ -72,9 +77,9 @@ export const palfreshProducts = [
     themeColor: "#6E7F4A",
 
     images: {
-      bg: mixVegBg,
-      pack: mixVegPack,
-      bowl: mixVegBowl,
+      bg: brocBg,
+      pack: brocPack,
+      bowl: brocBowl,
     },
 
     introTitle: "Your Daily Nutrition in Broccoli",
@@ -166,11 +171,12 @@ export const palfreshProducts = [
     slug: "ladyfinger",
     subtitle: "FROZEN ",
     title: "LADYFINGER",
-    themeColor: "#C62828",
+    themeColor: "#6D9032",
 
     images: {
-      bg: soyaBg,
-      pack: soyaPack,
+      bg: ladyBG,
+      pack: ladyPack,
+      bowl: ladyBowl,
     },
 
     introTitle: "Fresh, Nutritious & Flavorful Ladyfinger",
@@ -206,6 +212,56 @@ export const palfreshProducts = [
       "Our frozen green peas are harvested at their peak ripeness, carefully processed, and promptly frozen to lock in their natural sweetness and vibrant color. We take pride in preserving the nutritional value of our green peas, ensuring that they retain their vitamins, minerals, and fiber even after freezing. Whether you're a health-conscious individual, a culinary enthusiast, or a busy home cook, our frozen green peas are a convenient and delicious addition to your meals. From classic Indian curries to hearty soups, salads, stir-fries, and more, our green peas elevate the taste and nutritional profile of your favorite recipes. ",
     offer3:
       "Pal Frozen Foods is committed to providing you with the best. Our state-of-the-art facilities and stringent quality control measures ensure that every pack of our frozen green peas meets the highest standards. We take pride in bringing you a product that not only enhances your culinary creations but also nourishes your body. Explore our website and discover the convenience and quality of our frozen green peas. Let Pal Frozen Foods be your go-to source for premium frozen vegetables, as we bring you the essence of nature's goodness, preserved and ready to be enjoyed. Experience the delight of our frozen green peas and elevate your meals to a whole new level.",
+    otherProducts: ["Frozen Green Peas", "Frozen Sweet Corn", "Frozen Mix Veg"],
+  },
+
+  // ================= CAULIFLOWER =================
+  {
+    slug: "cauliflower",
+    subtitle: "FROZEN ",
+    title: "CAULIFLOWER",
+    themeColor: "#F2C94C",
+
+    images: {
+      bg: cauliflowerBg,
+      pack: cauliflowerPack,
+      bowl: cauliflowerBowl,
+    },
+
+    introTitle: "Fresh & Nutritious Frozen Cauliflower",
+    introText:
+      "Our frozen cauliflower is carefully selected from high-quality farms and hygienically processed to preserve its natural freshness, texture, and nutritional value. Quickly frozen at peak quality, it ensures consistent taste and convenience for everyday cooking.",
+
+    story: [
+      {
+        title: "HARVESTING",
+        subtitle: "Fresh cauliflower from farms",
+        text: "Cauliflower is harvested at the right maturity from trusted farms to ensure quality and freshness.",
+      },
+      {
+        title: "CLEANING",
+        subtitle: "Thoroughly washed and sorted",
+        text: "Each floret is carefully cleaned and sorted to meet strict quality standards.",
+      },
+      {
+        title: "BLANCHING",
+        subtitle: "Locks freshness and nutrients",
+        text: "Quick blanching helps preserve the natural color, texture, and nutritional value.",
+      },
+      {
+        title: "FREEZING",
+        subtitle: "Rapid freezing process",
+        text: "Advanced freezing technology locks in freshness without compromising quality.",
+      },
+    ],
+
+    offer1:
+      "Our frozen cauliflower is processed using advanced freezing technology to retain its natural taste, texture, and nutritional benefits. Carefully sourced from reliable farmers, it delivers consistent quality and freshness in every pack.",
+    offer2:
+      "Rich in essential nutrients and dietary fiber, frozen cauliflower is a versatile ingredient suitable for a wide variety of dishes. From Indian curries to continental recipes, it offers convenience without compromising taste or quality.",
+    offer3:
+      "At Pal Frozen Foods, stringent quality checks and modern infrastructure ensure that every pack of frozen cauliflower meets international food safety standards. Enjoy farm-fresh goodness, preserved and ready to use.",
+
     otherProducts: ["Frozen Green Peas", "Frozen Sweet Corn", "Frozen Mix Veg"],
   },
 ];
