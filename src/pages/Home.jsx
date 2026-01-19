@@ -31,14 +31,7 @@ export default function Home() {
           sm:text-base
         "
         >
-          In The Frozen Company we grows own vegetables by contract farming to
-          maintain the quality and essence of the product. It helps us to have
-          products available as per our requirement with assured eminence. We
-          get in a pre-agreed price for the raw material from the farmers with
-          buy back guarantee to the farmers. The production unit of the company
-          is located at Haldwani with automated machines and equipment used for
-          cutting, peeling and shedding of the material. Every equipment is PLC
-          Control.
+          At The Frozen Company, we cultivate our vegetables through trusted contract farming to ensure uncompromised quality and authentic freshness. With assured sourcing at pre-agreed prices and a buy-back guarantee for farmers, we create a sustainable farm-to-factory ecosystem
         </p>
       </section>
 
