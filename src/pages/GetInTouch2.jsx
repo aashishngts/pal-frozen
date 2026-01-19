@@ -45,8 +45,7 @@ export default function GetInTouch2() {
               </p>
 
               <p>
-                <span className="font-medium">Email:</span>{" "}
-                {/* Add director email here if/when provided */}
+                <span className="font-medium">Email:</span> Sales@tfcfrozen.com
               </p>
             </div>
           </div>
