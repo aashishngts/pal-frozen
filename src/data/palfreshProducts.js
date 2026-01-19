@@ -15,7 +15,7 @@ import ladyPack from "../assets/palfresh/packets/Lady FInger.png";
 import ladyBowl from "../assets/palfresh/soyachaap/bowl.png";
 
 import cauliflowerBg from "../assets/palfresh/cauliflower/bg.png";
-import cauliflowerPack from "../assets/palfresh/packets/CAULIFLOWER.png";
+import cauliflowerPack from "../assets/palfresh/packets/cAULIFLOWER.png";
 import cauliflowerBowl from "../assets/palfresh/cauliflower/bowl.png";
 
 export const palfreshProducts = [
