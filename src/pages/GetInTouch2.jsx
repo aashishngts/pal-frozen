@@ -34,6 +34,9 @@ export default function GetInTouch2() {
                 <span className="font-medium">Phone:</span> +91 9879299952
               </p>
               <p>
+                <span className="font-medium">Director:</span> Sunny Nagrani
+              </p>
+              <p>
                 <span className="font-medium">Phone:</span> +91 7879912345
               </p>
 
@@ -45,7 +48,7 @@ export default function GetInTouch2() {
               </p>
 
               <p>
-                <span className="font-medium">Email:</span> Sales@tfcfrozen.com
+                <span className="font-medium">Email:</span> marketing@sailorexports.com
               </p>
             </div>
           </div>

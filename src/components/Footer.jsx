@@ -75,7 +75,7 @@ export default function Footer() {
 
             <p className="flex items-center gap-2">
               <MdEmail className="text-pink-700 text-lg" />
-              <span>Sales@tfcfrozen.com</span>
+              <span>marketing@sailorexports.com</span>
             </p>
             <p className="flex gap-3">
               <span>📞</span>

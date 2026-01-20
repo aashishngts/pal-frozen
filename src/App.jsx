@@ -10,6 +10,7 @@ import PalFresh from "./pages/PalFresh";
 import GetInTouch from "./pages/GetInTouch";
 import GetInTouch2 from "./pages/GetInTouch2";
 import CookieConsent from "./components/CookieConsent";
+import ScrollToTop from "./pages/ScrollToTop";
 
 /* TEMP PAGES */
 const ComingSoon = ({ title }) => (
@@ -21,7 +22,9 @@ const ComingSoon = ({ title }) => (
 export default function App() {
   return (
     <BrowserRouter>
+    <ScrollToTop />
       <CookieConsent />
+
       <Navbar />
 
       <Routes>

@@ -1,8 +1,6 @@
 import heroVideo from "../assets/hero-video1.mp4";
 
-export default function Hero({
-  subtitle = "Harvested at Peak, Frozen to Perfection",
-}) {
+export default function Hero() {
   return (
     <section
       className="
