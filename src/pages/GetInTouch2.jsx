@@ -48,6 +48,9 @@ export default function GetInTouch2() {
               </p>
 
               <p>
+                <span className="font-medium">Email:</span> sales@tfcfrozen.com
+              </p>
+              <p>
                 <span className="font-medium">Email:</span> marketing@sailorexports.com
               </p>
             </div>
