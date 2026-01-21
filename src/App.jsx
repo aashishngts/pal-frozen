@@ -34,7 +34,7 @@ export default function App() {
         <Route path="/blog" element={<Blogs />} />
 
         {/* TEMP PAGES */}
-        <Route path="/pal-fresh" element={<PalFresh />} />
+        <Route path="/tfc" element={<PalFresh />} />
         <Route path="/frozzo" element={<ComingSoon title="Frozzo" />} />
         <Route path="/contact" element={<GetInTouch2 />} />
 

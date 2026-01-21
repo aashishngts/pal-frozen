@@ -9,7 +9,7 @@ export default function Navbar() {
   const navItems = [
     { name: "Home", to: "/" },
     { name: "About Us", to: "/about" },
-    { name: "The Frozen Company", to: "/pal-fresh" },
+    { name: "The Frozen Company", to: "/tfc" },
     { name: "Get In Touch", to: "/contact" },
   ];
 

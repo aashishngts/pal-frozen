@@ -45,7 +45,7 @@ export default function Footer() {
             </li>
 
             <li>
-              <NavLink to="/pal-fresh" className="hover:text-green-800">
+              <NavLink to="/tfc" className="hover:text-green-800">
                 The Frozen Company
               </NavLink>
             </li>
